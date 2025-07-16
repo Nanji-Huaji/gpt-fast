@@ -1,0 +1,228 @@
+nohup: ignoring input
+/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_inductor/lowering.py:7007: UserWarning: 
+Online softmax is disabled on the fly since Inductor decides to
+split the reduction. Cut an issue to PyTorch if this is an
+important use case and you want to speed it up with online
+softmax.
+
+  warnings.warn(
+Using device=cuda
+Loading model ...
+Time to load model: 1.79 seconds
+Compilation time: 49.84 seconds
+Hello, my name is Ronaldo and I am an experienced software developer with several years of experience. I love writing code and I love working with people, so I am confident that I can help you effectively. <issue_start><issue_comment>Title: Switch to go-ipfs as main package
+username_0: Go-ipfs has built-in support for running Bitcoin-based payments, which is needed for our payments system. We will switch to go-ipfs as the main package over the next few weeks.
+<issue_comment>username_1: /cc @username_2
+<issue_comment>username_2: I'm willing to help out with the switch.
+<issue_comment>username_0: Go-ipfs is already the default package for go-wallet, so there won't be much need for it: https://github.com/bitcoin/go-bitcoin/blob/79d7e42c25b0f31ddbe530d0f4d0c1b7c43b69d2/wallet/wallet.go#L250-L255<issue_closed> <issue_start><issue_comment>Title: Add info to the home page about fees
+username_0: So that people understand what they are paying for when they use our service, we need to add info to the home page about fees. There is a section called "My Payments" right now, but it only shows you when you make a payment, not per transaction. We need to add everything to that section. <issue_start><issue_comment>Title: Add a "Getting Started" section, particularly for new users
+username_0: Currently, the Getting Started section is a bit rough and only covers the basics. We need to add more information to it, such as:
+- How to create a new account
+- How to send transactions
+- How to track your transactions
+- How to customize your wallet to work with different networks
+- How to use the REST API
+
+Perhaps we can also create a small document that can be included in the Getting Started section to provide some guidance to new users. <issue_start><issue_comment>Title: New release and update doc.
+Time for inference 1: 1.89 sec total, 271.10 tokens/sec
+Bandwidth achieved: 560.92 GB/s
+FLOPS achieved: 0.57 TF/s
+
+Hello, my name is **Pete**. I live in **Berlin**, Germany.
+
+I've always been passionate about **web development** and **marketing**, but I haven't had the time to spend much time on them.
+
+So, if you’re looking for a **free** and **simple** way to improve your **web presence**, I highly recommend that you read this guide. It's packed full of tips and tricks that will help you become a better **web developer**, **marketer**, and **freelancer**.
+
+---
+
+## Why this guide?
+
+I wanted to create a guide that would not only teach you how to **write better code**, but also teach you how to **make money**. I've been a freelancer for a while now, and I've seen all-too-often people who don't know how to **write better code** and **make money**.
+
+That's why I wrote this guide, to show you how to **write better code** without having to spend a dime on expensive courses or workshops.
+
+I know that there are a lot of great **web development courses** out there, with prices that can range from $100 to $1000 or more. But, there are a lot of **marketing courses** out there, with prices that can range from $100 to $1000 or more.
+
+Both of those options are terrible value for money.
+
+I want to show you how to **write better code** for free or at a fraction of the price of these courses.
+
+---
+
+## How this guide works
+
+This guide covers a wide range of topics related to web development and marketing, including:
+
+- How to write better code without any prior knowledge
+- How to become a better web developer
+- How to write more efficient and effective code
+- How to find more efficient and effective ways to market your **web development** and **marketing** skills
+- How to make more money as a web developer
+- How to **write better emails**
+- How to **write better blog posts**
+- How to **write better resumes**
+- How to **write better proposals**
+- How to **write better reports**
+- How to **write better presentations**
+
+You
+Time for inference 2: 1.89 sec total, 271.15 tokens/sec
+Bandwidth achieved: 561.02 GB/s
+FLOPS achieved: 0.57 TF/s
+
+Hello, my name is Andrew, I am a web developer, I like to start with the code <issue_start><issue_comment>Title: [WIP] Port vk_init() to C++
+username_0: Port vk_init() to C++ because:
+- C++ is a better language for this purpose because of better syntax (we need to use `::` instead of `namespace` to access symbols).
+- Boost.Scope can use C++, which allows easier translation to C++ code.
+<issue_comment>username_1: @username_2 could you please take a look at this if possible?
+<issue_comment>username_2: Why doesn't it compile with GCC 4.9?
+<issue_comment>username_1: @username_2 please also take a look at #108.
+<issue_comment>username_0: Here's what happens when compiling with GCC 4.9 for Windows:
+```
+$ gcc -O3 -shared -Iinclude/vulkan -Wall -Wextra -Werror -Iinclude/vulkan/ -Werror=incompatible-pointer-types -Iinclude/vulkan/src/utils/ -Iinclude/vulkan/src/utils/ -Iinclude/vulkan/src/utils/include -Iinclude/vulkan/src/utils/vulkan-core -o build.dll vk.cpp vlkglsl.cpp
+/C/mingw64/bin/link.exe: error: ld returned 1 exit status
+Build.dll: error: invalid option: -Werror=incompatible-pointer-types
+```
+<issue_comment>username_2: Ah, I see. Does that mean it is failing to link due to the `INTEGERTYPE` declaration? <issue_start><issue_comment>Title: Can't open "chrome://settings/extensions"
+username_0: When trying to open "chrome://settings/extensions", the link seems to be broken. It looks like Chrome is treating it as a link that should be opened from the "chrome://settings" page.
+<issue_comment>username_1: I've just tested it and it doesn't seem to work for me. I used both Chrome 5
+Time for inference 3: 1.89 sec total, 271.05 tokens/sec
+Bandwidth achieved: 560.81 GB/s
+FLOPS achieved: 0.57 TF/s
+
+Hello, my name is John. I'm from the United States. Happy to help! <issue_start><issue_comment>Title: The "Suggested Update" button is only available in Chrome
+username_0: ## Steps to reproduce:
+1. Open https://www.npmjs.com/package/ts-node
+2. Click on the "Suggested Update" button
+3. It's not available during Firefox or Edge
+<issue_comment>username_1: This is a duplicate of https://github.com/Microsoft/vscode-chrome-debug/issues/757, but the ticket is closed due to the "fixed" state in the issue. Please upvote the other one for tracking. <issue_start><issue_comment>Title: Update dependencies
+username_0: 
+<issue_comment>username_1: Docs Build status updates of commit _[d9bdf21](https://github.com/username_0/docs.microsoft.com-conceptual/pull/1214/commits/d9bdf21f2e3e262cfa9e8f1d8c2b4f88b62a8a5b)_: 
+
+### :white_check_mark: Validation status: passed
+
+
+File | Status | Preview URL |
+| --- | ------ | ----------- |
+| [docs/includes/d365-tools-banner.md](https://github.com/username_0/docs.microsoft.com-conceptual/blob/patch-1/docs/includes/d365-tools-banner.md) | :white_check_mark:Succeeded | |
+
+For more details, please refer to the [build report](https://opbuildstorageprod.blob.core.windows.net/report/2019%5C4%5C11%5Cf49385f6-041e-c938-65c5-67aa28268fce%5CPullRequest%5C201904111912542300-1214%5Cworkflow_report
+Time for inference 4: 1.89 sec total, 270.93 tokens/sec
+Bandwidth achieved: 560.57 GB/s
+FLOPS achieved: 0.57 TF/s
+
+Hello, my name is David from [your_company].
+We are working with a group of [number of customers] and we are interested in implementing a new pricing model for our service. We are looking for recommendations on what type of pricing we should consider for our customers.
+We, as a company, understand that the best pricing strategy for our customers is to provide a fair and reasonable price for their services. However, we want to ensure that our customers understand what they are paying for and why, so we would like to have some guidance from you.
+If you could please provide me with some clarification on the types of pricing models that you recommend, we would be very thankful.
+We are ready to receive your guidance and recommendations. <issue_start><issue_comment>Title: Add a new note about using `db.model` instead of `Model`
+username_0: Currently, `db.model` is used in a number of places to create models that can be used with an a-priori knowledge of the relationships between them, which can be useful for certain use cases. However, `Model` is deprecated and will be removed in a future release, so this might be a good time to clarify the use of `db.model` in such scenarios.
+<issue_comment>username_1: I agree with @username_0 about the deprecation of `Model`. We should definitely have a note of that kind! <issue_start><issue_comment>Title: Incorporate updated JBoss module for Service Registry
+username_0: Our JBoss module has been updated and we need to incorporate it into this module for Service Registry <issue_start><issue_comment>Title: Add H2 support for Siddhi Store Repository
+username_0: H2 is a lightweight in-memory database that is widely used for testing, debugging, and efficient prototyping. It has an open source licence which means it can be distributed as part of Siddhi Store Repository.
+
+This commit adds an H2 database server to Siddhi Store Repository which can be used to test and debug Siddhi applications.
+<issue_comment>username_1: @username_0 does it support both JBoss and Tomcat containers? <issue_start><issue_comment>Title: Confusing documentation
+username_0: Hi :wave
+Time for inference 5: 1.89 sec total, 270.61 tokens/sec
+Bandwidth achieved: 559.90 GB/s
+FLOPS achieved: 0.57 TF/s
+
+==========
+Batch Size: 1
+Prompt Length: 6
+Generated tokens: 512
+Average tokens/sec: 270.97
+Memory used: 2.35 GB
+/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_inductor/lowering.py:7007: UserWarning: 
+Online softmax is disabled on the fly since Inductor decides to
+split the reduction. Cut an issue to PyTorch if this is an
+important use case and you want to speed it up with online
+softmax.
+
+  warnings.warn(
+Using device=cuda
+Loading model ...
+Time to load model: 9.66 seconds
+Compilation time: 63.38 seconds
+Hello, my name is Ronaldo and I am an experienced graphic designer and video editor, with over 10 years of experience working in the industry. I specialize in creating visually appealing designs and videos that effectively communicate a message or promote a product. I am proficient in Adobe Photoshop, Illustrator, InDesign, Premiere Pro and After Effects, and have worked on a wide range of projects, from logo design and branding to social media campaigns and promotional videos. I am passionate about design and video and committed to delivering high-quality work that meets my clients' needs and exceeds their expectations. I am available for freelance work and would love to hear about any projects you may have. Please don't hesitate to contact me to discuss your project in further detail. Sanofi inaugurates new vaccines facility in Singapore
+French pharmaceutical company Sanofi has inaugurated a new vaccines facility in Singapore, which will be used for the production of its seasonal influenza vaccine.
+The new facility, which is located in the Tuas Biomedical Park, has an annual production capacity of 60 million doses of the influenza vaccine, including both the trivalent and quadrivalent versions.
+The facility features advanced technologies and automated systems to ensure high-quality vaccine production, and is said to be one of the most technologically advanced vaccine manufacturing facilities in the world.
+Sanofi’s new vaccine facility will enable the company to meet the growing demand for its influenza vaccine, particularly in the Asia-Pacific region.
+The facility has been built at a cost of around SGD300m ($219m), and is expected to create around 100 new jobs in Singapore.
+Sanofi Pasteur managing director Thomas Triomphe said: "The opening of this state-of-the-art facility reinforces our commitment to delivering high-quality, reliable vaccines to protect people from influenza, a disease that poses a significant public health burden worldwide.
+"This new facility will help us meet the growing demand for our influenza vaccine in the Asia-Pacific region and reinforces our position as a leader in vaccine manufacturing." The Board of Direct
+Time for inference 1: 19.32 sec total, 26.50 tokens/sec
+Bandwidth achieved: 681.12 GB/s
+FLOPS achieved: 0.69 TF/s
+
+Hello, my name is Vicuna and I'm here to help you with any questions or problems you might have. I'm a language model, so I can understand and respond to a wide range of questions and topics. If you need help with something specific, just let me know and I'll do my best to assist you. 2022 Lexus RZ 450e: First Look at Lexus’ All-Electric Luxury Crossover SUV
+Lexus has unveiled its first all-electric vehicle, the 2022 RZ 450e, which is an electric version of the RX crossover SUV. The RZ 450e is designed to offer both luxury and performance, while still providing a comfortable and efficient driving experience. Here’s a closer look at the all-electric Lexus RZ 450e:
+Design and Exterior
+The RZ 450e features a sleek, aerodynamic design that is typical of Lexus vehicles. The crossover SUV has a low and wide stance, which gives it a commanding presence on the road. The front end features the signature Lexus spindle grille, which has been reinterpreted for the electric vehicle. The grille is now closed off to improve aerodynamics and reduce wind noise.
+The RZ 450e has a length of 187.4 inches, a width of 76.3 inches, and a height of 66.2 inches. The wheelbase measures 113.7 inches, which provides plenty of space for passengers and cargo. The SUV is built on the new e-Global Architecture (e-GA) platform, which is designed specifically for electric vehicles.
+Interior and Comfort
+The RZ 450e offers a luxurious and comfortable interior, with premium materials and finishes throughout. The cabin is designed to provide a sense of spaciousness and tranquility, with a focus on comfort and relaxation. The seats are upholstered in high-quality materials, and there is ample legroom and headroom for both front and rear passengers.
+The SUV features a 14.5-inch infotainment screen, which is housed in a new instrument panel that is designed to
+Time for inference 2: 19.33 sec total, 26.49 tokens/sec
+Bandwidth achieved: 680.92 GB/s
+FLOPS achieved: 0.69 TF/s
+
+Hello, my name is Alex, and I'm a software engineer.
+
+I have several years of experience developing web applications using a variety of technologies and programming languages. I'm proficient in Python, JavaScript, HTML/CSS, and have experience working with both SQL and NoSQL databases.
+
+I'm passionate about creating clean, maintainable code and enjoy collaborating with others to solve complex problems. In my free time, I enjoy hiking, playing guitar, and reading books on software development and technology. A New Chapter for Humanity: The Role of Education in a Changing World
+
+As the world undergoes a swift and profound transformation, sparked by advances in technology and a rapidly evolving global landscape, the role of education is also shifting. Education is not just about imparting knowledge; it is about preparing students for a future that is vastly different from the present.
+
+In this new era, education must be more flexible and adaptable, able to keep pace with the rapid changes in technology and the world. It must also be more inclusive, providing equal opportunities for all students regardless of their background, and fostering a sense of global citizenship that prepares students to thrive in a diverse and interconnected world.
+
+Furthermore, education must be more focused on developing critical thinking skills and problem-solving abilities, as these will be essential for success in a world that is constantly changing. It must also be more focused on nurturing creativity and fostering resilience, as these are the skills that will enable students to navigate the challenges that they will face in the future.
+
+Ultimately, education is not just about preparing students for the future, but also about empowering them to shape it. It is about equipping them with the knowledge, skills, and mindset that they need to make a positive impact on the world and to create a better future for all of us. Canon PIXMA MG2570 Driver, Manual, Download
+Canon PIXMA MG2570 Driver, Manual, Download - The Canon PIXMA MG2570 is a compact and stylish inkjet printer that is designed to make printing easier and more convenient. It has a sleek and minimalist design that will fit well in any home or office setting, and its small size means it can be
+Time for inference 3: 19.33 sec total, 26.49 tokens/sec
+Bandwidth achieved: 680.83 GB/s
+FLOPS achieved: 0.69 TF/s
+
+Hello, my name is Karen, and I am a 56-year-old woman who has been experiencing a wide range of physical and emotional symptoms over the past seven years. These symptoms include chronic fatigue, brain fog, joint and muscle pain, anxiety, depression, and insomnia. I have seen multiple doctors, undergone numerous tests, and tried various treatments, but none of them have been able to provide a clear diagnosis or effective treatment for my condition.
+
+I have a history of high blood pressure and high cholesterol, and I take medication for these conditions. My doctor recently recommended that I undergo a sleep study to see if my symptoms might be related to sleep apnea, but I am skeptical about this diagnosis and would like to get a second opinion. Is it possible that my symptoms could be related to adrenal dysfunction or another underlying condition? What tests or treatments might be recommended to help diagnose and address my symptoms?
+
+Thank you for your time and any guidance you can provide. The Power of Mentoring and Coaching
+
+Mentoring and coaching are powerful tools that can help individuals achieve their goals, improve their performance, and develop their skills. Both mentoring and coaching involve a relationship between two people, but they differ in their focus and approach.
+
+Mentoring is a relationship in which an experienced person (the mentor) provides guidance, support, and advice to a less experienced person (the mentee). The mentor shares their knowledge, experience, and insights to help the mentee navigate their career or personal development journey. Mentoring is often long-term and focused on personal and professional growth.
+
+Coaching, on the other hand, is a relationship in which a trained professional (the coach) helps an individual set and achieve specific goals. The coach uses a variety of techniques, including questioning, listening, and feedback, to help the individual identify their strengths, weaknesses, and areas for improvement. Coaching is often shorter-term and focused on specific skills or behaviors.
+
+Both mentoring and coaching can be highly effective in helping individuals achieve their goals and develop their skills. However, the best approach depends on the individual's needs and goals. Mentoring may be more appropriate for individuals seeking long-term guidance and support, while coaching may be more appropriate
+Time for inference 4: 19.33 sec total, 26.49 tokens/sec
+Bandwidth achieved: 680.82 GB/s
+FLOPS achieved: 0.69 TF/s
+
+Hello, my name is Mercy and I am a software engineer with over 10 years of experience in the field. I have a passion for programming and problem-solving, and I am always looking for new and interesting projects to work on. In my free time, I enjoy reading, hiking, and spending time with my family. I am also an animal lover and a proud pet owner. Tips for Parents: Child Safety on the Internet
+The internet can be a great tool for learning and staying connected, but it can also pose risks to children. Here are some tips for parents to help keep their children safe online:
+1. Educate yourself and your child. Learn about the potential risks and dangers of the internet and talk to your child about them. Make sure your child understands that they should never give out personal information or communicate with strangers online.
+2. Set rules and limits. Establish rules for internet use, including when and where your child can use the internet, and how long they can stay online.
+3. Monitor your child's activity. Keep the computer in a common area of the house, where you can supervise your child's online activity. Check the browser history and ask your child about any websites they visit.
+4. Use parental control software. There are many software programs available that can block inappropriate websites and monitor your child's online activity.
+5. Encourage open communication. Talk to your child regularly about their online activities and make sure they feel comfortable coming to you with any concerns or problems they may have.
+6. Teach your child how to spot online predators. Help your child learn how to recognize the signs of an online predator, such as someone who is too friendly or asks for personal information.
+7. Keep personal information private. Teach your child not to share personal information online, such as their name, address, or phone number.
+8. Use social media wisely. If your child uses social media, set up privacy settings and monitor their activity. Teach your child to be cautious about what they post and who they communicate with online. GABF 2022: The First Round of Winners
+The Great American Beer Festival (GABF) has announced the first round of winners for 2022. More than 2,000 beers from
+Time for inference 5: 19.33 sec total, 26.48 tokens/sec
+Bandwidth achieved: 680.73 GB/s
+FLOPS achieved: 0.69 TF/s
+
+==========
+Batch Size: 1
+Prompt Length: 6
+Generated tokens: 512
+Average tokens/sec: 26.49
+Memory used: 26.81 GB

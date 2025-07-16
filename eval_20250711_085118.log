@@ -1,0 +1,137 @@
+nohup: ignoring input
+/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_inductor/lowering.py:7007: UserWarning: 
+Online softmax is disabled on the fly since Inductor decides to
+split the reduction. Cut an issue to PyTorch if this is an
+important use case and you want to speed it up with online
+softmax.
+
+  warnings.warn(
+Using device=cuda
+Loading model ...
+Time to load model: 1.86 seconds
+Compilation time: 46.37 seconds
+Hello, my name is [Nickname]! I'm a [Occupation] and I'm [Gender] from [Country]. <p>I was born and raised in the Netherlands, but I currently live in the United States.</p>
+<p>I am married to [Wife's Name] and we have three children: [Son's Name] and [Daughter's Name].</p>
+<p>In my free time, I like to [Activities] and [Interests].</p> <p>I am also a [Choose an Interest] student.</p>
+<p>I hope to hear back from you soon!</p>
+<p>Sincerely,</p>
+<p>[Your Name]</p>
+<p>[Address]</p>
+<p>[City], [State] [Zip Code]</p> <h1
+Time for inference 1: 1.18 sec total, 169.03 tokens/sec
+Bandwidth achieved: 349.73 GB/s
+FLOPS achieved: 0.36 TF/s
+
+Hello, my name is 1234567890 and I'm a tester.
+I am a tester because I want to become a tester and earn money and be able to make my life better.
+I am testing the app just to see if it works, so I am not an expert, but I am a tester for a company that develops apps to make people's lives better.
+I am a tester because I want to test the app and see if it works. <issue_start><issue_comment>Title: Update dependency graph for jupyter-client.
+username_0: I recently updated to jupyter-client 1.2.0 to fix a bug with the notebook-manager module. However, it seems that there are a lot of updated dependencies, especially for the `py` module, which has a lot of dependencies including other jupyter clients and libraries. These dependencies could be
+Time for inference 2: 1.57 sec total, 127.55 tokens/sec
+Bandwidth achieved: 263.91 GB/s
+FLOPS achieved: 0.27 TF/s
+
+Hello, my name is Samantha and I'm currently seated in the fifth row of the fifth row of the fifth row of the fifth row of the fifth row of the fifth row of the fifth row of the fifth row of the third row of the third row of the third row of the third row of the third row of the third row of the second row of the second row of the second row of the second row of the second row of the second row of the second row of the first row of the first row of the first row of the first row of the first row of the first row of the first row of the second row of the second row of the second row of the second row of the second row of the second row of the second row of the second row of the second row of the first row of the first row of the first row of the first row of the first row of the first row of the first row of the first row of the first row of the first row of the
+Time for inference 3: 1.57 sec total, 127.42 tokens/sec
+Bandwidth achieved: 263.63 GB/s
+FLOPS achieved: 0.27 TF/s
+
+Hello, my name is Luma. Thank you all for visiting me. All right, so I'm excited to be here with you. And I'm going to share with you some exciting news.
+Chapter 1. 2018
+Luma was born on April 17th, 2018. In Greek mythology, Luma was the Greek goddess of the sun and dawn. Her name translates to "breakthrough," and she was said to be a wise, patient, and beautiful goddess. She was the one who, with the help of Athena, directed the beginning of the Greek war against the Persians.
+The Greek myth of Luma began to shape the course of human history. The ancient Greeks saw her as the embodiment of the goddess Athena, who was known for her wisdom, beauty, and strength. They associated Luma with the sun god Helios, who was also known for his wisdom
+Time for inference 4: 1.62 sec total, 123.65 tokens/sec
+Bandwidth achieved: 255.84 GB/s
+FLOPS achieved: 0.26 TF/s
+
+Hello, my name is Bob, how can I help you today? 
+
+Q: Hey Bob, can you tell me what the closest grocery store is? 
+
+A: I'll need to look up the address for the closest grocery store, but the nearest one to your location is right around the corner. 
+
+Q: That sounds like a great idea! Thank you again. 
+
+A: You're welcome, Bob. Goodbye. <issue_start><issue_comment>Title: [Bug]: when creating new element, when finished working with text element, the element disappear
+username_0: ### Expected Behaviour
+
+When creating a new element, such as a text element, when finished working with it, for example, making it bold, it should disappear.
+
+### Actual Behaviour
+
+When creating a new element, such as a text element, when finished working with it, for example
+Time for inference 5: 1.61 sec total, 123.86 tokens/sec
+Bandwidth achieved: 256.27 GB/s
+FLOPS achieved: 0.26 TF/s
+
+========== 
+Model: tinyvicuna-1b
+Batch Size: 1
+Prompt Length: 6
+Generated tokens: 200
+Average tokens/sec: 134.30
+Memory used: 2.30 GB
+/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_inductor/lowering.py:7007: UserWarning: 
+Online softmax is disabled on the fly since Inductor decides to
+split the reduction. Cut an issue to PyTorch if this is an
+important use case and you want to speed it up with online
+softmax.
+
+  warnings.warn(
+Using device=cuda
+Loading model ...
+Time to load model: 17.58 seconds
+Compilation time: 70.70 seconds
+Hello, my name is Blake and I am a 3D artist based in Los Angeles. I specialize in character and creature design, as well as 3D modeling and texturing. I have a strong passion for storytelling and creating believable and relatable characters. I am highly skilled in using a variety of 3D software, including Maya, Zbrush, and Substance Painter. I am always seeking to push the boundaries of what is possible with 3D art and to create visually stunning and imaginative work.
+
+My process begins with a deep understanding of the project's goals and objectives. I work closely with the client to ensure that the final product meets their needs and expectations. I am highly detail-oriented and strive for perfection in every aspect of my work. I am constantly seeking to improve my skills and stay up-to-date with the latest trends and techniques in the field.
+Time for inference 1: 7.53 sec total, 26.57 tokens/sec
+Bandwidth achieved: 682.95 GB/s
+FLOPS achieved: 0.70 TF/s
+
+Hello, my name is Liza. I am a 43 year old woman and I live in a small town in the midwest. I have been considering a career change and have been exploring different options. I have always had a passion for helping others and have been considering a career in healthcare. I have been doing some research and have found that there are a lot of different healthcare careers to choose from.
+
+One option that has piqued my interest is becoming a certified nursing assistant (CNA). I am not sure if this is the right career path for me, but I am interested in learning more. I would love to hear from anyone who is currently working as a CNA or who has worked as one in the past. I would also appreciate any advice or guidance on how to go about pursuing this career. Thank you for your time and I look forward to hearing from you. The other day, I was thinking about writing a post about the
+Time for inference 2: 7.53 sec total, 26.56 tokens/sec
+Bandwidth achieved: 682.82 GB/s
+FLOPS achieved: 0.70 TF/s
+
+Hello, my name is Samantha and I'm a writer from the United States with a passion for creating engaging and thought-provoking content.
+
+I have a background in both creative writing and journalism, having been published in a variety of magazines and online publications. I specialize in a wide range of topics, including lifestyle, culture, and social issues, and my work is known for its unique blend of humor, insight, and empathy.
+
+I am a firm believer in the power of words to shape our perceptions of the world and to inspire positive change. Whether I am writing about the latest trends in fashion or exploring the complexities of human relationships, my goal is always to inform, entertain, and inspire my readers.
+
+In my free time, I enjoy reading, traveling, and trying new things. I am always eager to learn more about the world and to share my experiences with others.
+Time for inference 3: 7.53 sec total, 26.56 tokens/sec
+Bandwidth achieved: 682.66 GB/s
+FLOPS achieved: 0.70 TF/s
+
+Hello, my name is Lily, and I'm a highly experienced English tutor with over 10 years of experience in teaching English as a second language. I received my Bachelor's degree in English language and literature from the University of Oxford, and I am a certified teacher with a specialization in teaching English to speakers of other languages.
+
+I believe that every student has the potential to succeed in learning English, and my goal is to help my students reach their full potential by providing them with personalized, engaging, and effective learning experiences. I am passionate about making English learning enjoyable and rewarding, and I am committed to helping my students achieve their goals, whether they are seeking to improve their language skills for academic, professional, or personal reasons.
+
+My approach to teaching English is student-centered and communicative, and I use a variety of materials and methods to help my students achieve their learning goals. I believe that effective language learning involves more than just
+Time for inference 4: 7.53 sec total, 26.55 tokens/sec
+Bandwidth achieved: 682.47 GB/s
+FLOPS achieved: 0.70 TF/s
+
+Hello, my name is Hector!
+I'm a musician, programmer, and content creator based in New York City. My music is a blend of electronic, rock, and pop influences, and I'm always experimenting with new sounds and styles.
+
+As a programmer, I specialize in web development and have a particular interest in blockchain technology and decentralized systems. I'm always looking for ways to use technology to create new and innovative experiences for my audience.
+
+In addition to my music and programming, I'm also a content creator on YouTube and Twitch, where I share my thoughts and insights on a variety of topics, including music production, programming, and creative entrepreneurship.
+
+I'm passionate about helping others learn and grow, and I'm always looking for ways to connect with others who share my interests. So whether you're a fellow musician, programmer, or content creator,
+Time for inference 5: 7.53 sec total, 26.55 tokens/sec
+Bandwidth achieved: 682.51 GB/s
+FLOPS achieved: 0.70 TF/s
+
+==========
+Model: vicuna-13b-v1.5
+Batch Size: 1
+Prompt Length: 6
+Generated tokens: 200
+Average tokens/sec: 26.56
+Memory used: 26.41 GB

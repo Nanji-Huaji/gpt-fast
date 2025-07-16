@@ -1,0 +1,267 @@
+nohup: ignoring input
+/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_inductor/lowering.py:7007: UserWarning: 
+Online softmax is disabled on the fly since Inductor decides to
+split the reduction. Cut an issue to PyTorch if this is an
+important use case and you want to speed it up with online
+softmax.
+
+  warnings.warn(
+Using device=cuda
+Loading model ...
+Time to load model: 2.74 seconds
+Compilation time: 80.08 seconds
+Hello, my name is **Pete**. I live in **Berlin**, Germany.
+
+I've always been passionate about **web development** and **marketing**, but I haven't had the time to spend much time on them.
+
+So, if you’re looking for a **free** and **simple** way to improve your **web presence**, I highly recommend that you read this guide. It's packed full of tips and tricks that will help you become a better **web developer**, **marketer**, and **freelancer**.
+
+---
+
+## Why this guide?
+
+I wanted to create a guide that would not only teach you how to **write better code**, but also teach you how to **make money**. I've been a freelancer for a while now, and I've seen all-too-often people who don't know how to **write better code** and **make money**.
+
+That's why I wrote this guide, to show you how to **write better code** without having to spend a dime on expensive courses or workshops.
+
+I know that there are a lot of great **web development courses** out there, with prices that can range from $100 to $1000 or more. But, there are a lot of **marketing courses** out there, with prices that can range from $100 to $1000 or more.
+
+Both of those options are terrible value for money.
+
+I want to show you how to **write better code** for free or at a fraction of the price of these courses.
+
+---
+
+## How this guide works
+
+This guide covers a wide range of topics related to web development and marketing, including:
+
+- How to write better code without any prior knowledge
+- How to become a better web developer
+- How to write more efficient and effective code
+- How to find more efficient and effective ways to market your **web development** and **marketing** skills
+- How to make more money as a web developer
+- How to **write better emails**
+- How to **write better blog posts**
+- How to **write better resumes**
+- How to **write better proposals**
+- How to **write better reports**
+- How to **write better presentations**
+
+You'll see how to:
+
+- Use HTML, CSS, and JavaScript to create **responsive** sites
+- Use JavaScript to create interactive features on your websites
+- Use jQuery to create responsive, interactive, and fast websites
+- Use PHP to create dynamic websites
+- Use MySQL to create websites
+- Use XHTML and HTML5 to create **clean and modern websites**
+- Use **CSS preprocessors** to create **clean and modern websites**
+- Use **AJAX** to create dynamic websites
+- Use **JavaScript** to create dynamic websites
+- Use **XML** to create dynamic websites
+- Use **XMLSpy** to create xml data
+- Use **JQuery UI** to create dynamic, interactive, and fast websites
+- Use **Bootstrap** to create dynamic, interactive, and **fast websites**
+- Use **Markdown** to create great "markdown" documents
+- Use **Git** to manage your work and **collaborate** with others
+- Use **GitHub** to manage your work and **collaborate** with others
+- Use **Jekyll** to create static websites
+- Use **Jekyll** to create pages for your websites
+- Use **Jekyll** to create pages for your websites
+- Use **Jekyll** to create pages for your websites
+- Use **Jekyll** to create pages for your websites
+- Use **Jekyll** to create pages for your websites
+- Use **Jekyll** to create pages for your websites
+- Use **Jekyll** to create pages for your websites
+- Use **Jekyll** to create pages for your websites
+- Use **Jekyll** to create pages for your websites
+- Use **Jekyll** to create pages for your websites
+- Use **Jekyll** to create pages for your websites
+- Use **Jekyll** to create pages for your websites
+- Use **Jekyll** to create pages for your websites
+
+You'll also see how to:
+
+- **Create online courses** using the power of **Open Source** and **Jekyll**
+- **Create online courses** using the power of **Open Source** and **Jekyll**
+- **Create online courses** using the power of **Open Source** and **Jekyll**
+- **Create online courses** using the power of **Open Source** and **J
+Time for inference 1: 3.74 sec total, 273.93 tokens/sec
+Bandwidth achieved: 566.76 GB/s
+FLOPS achieved: 0.57 TF/s
+
+Hello, my name is John. I'm from the United States. Happy to help! <issue_start><issue_comment>Title: The "Suggested Update" button is only available in Chrome
+username_0: ## Steps to reproduce:
+1. Open https://www.npmjs.com/package/ts-node
+2. Click on the "Suggested Update" button
+3. It's not available during Firefox or Edge
+<issue_comment>username_1: This is a duplicate of https://github.com/Microsoft/vscode-chrome-debug/issues/757, but the ticket is closed due to the "fixed" state in the issue. Please upvote the other one for tracking. <issue_start><issue_comment>Title: Update dependencies
+username_0: 
+<issue_comment>username_1: Docs Build status updates of commit _[d9bdf21](https://github.com/username_0/docs.microsoft.com-conceptual/pull/1214/commits/d9bdf21f2e3e262cfa9e8f1d8c2b4f88b62a8a5b)_: 
+
+### :white_check_mark: Validation status: passed
+
+
+File | Status | Preview URL |
+| --- | ------ | ----------- |
+| [docs/includes/d365-tools-banner.md](https://github.com/username_0/docs.microsoft.com-conceptual/blob/patch-1/docs/includes/d365-tools-banner.md) | :white_check_mark:Succeeded | |
+
+For more details, please refer to the [build report](https://opbuildstorageprod.blob.core.windows.net/report/2019%5C4%5C11%5Cf49385f6-041e-c938-65c5-67aa28268fce%5CPullRequest%5C201904111912542300-1214%5Cworkflow_report.html?sv=2015-02-21&sr=b&sig=mBeyA4ZNlW6Z74wkVmMzHN6CqyYt8Cm29bZQl4uHwg0%3D&st=2019-04-11T19%3A09%3A32Z&se=2019-05-13T19%3A14%3A32Z&sp=r).
+
+**Note:** If you changed an existing file name or deleted a file, broken links in other files to the deleted or renamed file are listed only in the full build report. <issue_start><issue_comment>Title: Add non-release version of bq client
+username_0: 
+<issue_comment>username_1: Thanks for the PR! Does an un-released bq client block by bq developers?
+<issue_comment>username_2: I think the bq client is meant to be used by developers and not the general public.  If you're wanting to use the bq client for testing purposes, I would recommend using the older BQ client gem. <issue_start><issue_comment>Title: Merge changes to py2to3
+username_0: The changes in this PR are to regenerate the unit tests using py2to3 and reduce the amount of unused code in the generated code.
+<issue_comment>username_0: The py2to3 changes are actually a change to the way copy_with_exceptions function is called instead of copy_with_exceptions_as_copy.  The change has been made in the commit message to make it clear that this is the intent. <issue_start><issue_comment>Title: Add missing dependency of pyopenssl for python 2.7.
+username_0: Running `pip install .` on my local machine(python 3.6.0) installed an old version of pyopenssl, which required a dependency on python 2.7 to be installed. This PR adds the necessary dependency of pyopenssl for python 2.7 to the requirements.txt file.
+<issue_comment>username_1: Thanks for the fix!
+Time for inference 2: 3.74 sec total, 273.62 tokens/sec
+Bandwidth achieved: 566.13 GB/s
+FLOPS achieved: 0.57 TF/s
+
+Hello, my name is George, and I am looking for information about the book "How to Count Pineapples."
+Thanks!
+
+A: The "How to Count Pineapples" book is now available for purchase on Amazon.com:
+http://www.amazon.com/How-Count-Pineapples/dp/0321090178
+
+A: If you are looking for an old book, you can get a copy of "The First Fruits of Ascension" by William Temple and Ralph Waldo Emerson. The book is about the origin and significance of the harvest festival, and offers instructions on how to count pineapples.
+
+A: Another source for the book is "How to Count Pineapples" by John W. C. Hatch, published in 1961. 
+Either one of these may be of interest.
+ This is a 9-inch reed, made from one or two thick layers of wood, cut to a 9-inch size. It is curled neatly and has a smooth texture.
+The reed has a sweet, slightly crisp, and fresh sound. It has a durable sound quality, and is somewhat difficult to tune (but not too difficult). The overall sound is warm, with a sweet, somewhat crisp quality. The Greenville-Spartanburg International Airport offers rental car and van service from many major companies. In addition, there are several rental car agencies with an office in downtown Greenville.
+The airport is located at 438 East Church Street in Greenville. The airport is easily accessible by most major routes, including Interstates 26, 85, and 835. Downtown Greenville is easy to access from Interstate 85, and many hotels and restaurants are located within walking distance of the airport. I'm not sure how to use the slider.
+I'm looking for tips on how to use the slider and can't seem to figure out how to set up the slider correctly.
+I tried changing the slider's settings, like changing the speed and time and color, but am still not sure what settings to use.
+Please help me make the slider work properly.
+Can you please provide more information? Tips for Making the Most of Your Podcast Advertising
+By Christina Shier
+How to Turn Your Podcast App Into a Successful Community
+By Christina Shier
+How to Get Your Podcast to Grow a Following
+By Ava Lehman
+The Ultimate Guide to Building a Successful Podcast Network
+By Danielle Dang
+How to Host a Successful Podcast For Your Business
+By Katherine Schoenfeld
+How to Make Your Podcasts More Engaging: Tips for Listening Audiences
+By Anna Dodsi
+How to Get Your First Episode of Your Podcast Published
+By Claudia Rodriguez
+8 Steps to Make Your Podcast Sound Unique
+By Kylie McQuillan
+How to Promote Your Podcast to a Large Audience
+By Jayme White
+How to Promote Your Podcast on Social Media
+By Maria Ramirez
+Take Your Podcast to the Next Level: 17 Podcast Marketing Tips This product is original, authentic name-brand. We take great pleasure in offering a wide range of exquisitely designed and beautifully crafted items that will bring happiness, uniqueness and comfort to your home. 100% money-back guarantee. Q: "IoT" device communication with Windows Server 2016 I want to have Smart Home devices and IoT devices connected to my Windows Server 2016 environment. I've managed to set up a server that can run the Windows Server 2016 operating system. I've also set up a Windows Server 2016 Web Server and added the server to the Active Directory. 
+I want to get the Smart Home devices to communicate with the Server, but I never saw an example of this in the documentation. TIA.
+
+A: Here's a step-by-step guide to setting up IoT devices to communicate with Windows Server 2016:
+
+
+*
+
+*Download the IoT Device SDK by adding the following code to your Server's Startup.vbs file:
+
+```
+Dim csc
+csc = GetObject("MSXML2.Csc.4.0")
+csc.LoadDll ("iothelper.dll")
+```
+
+
+*Run the Microsoft Installer on the server.
+
+*Install a Pushover client (e
+Time for inference 3: 3.74 sec total, 273.43 tokens/sec
+Bandwidth achieved: 565.74 GB/s
+FLOPS achieved: 0.57 TF/s
+
+Hello, my name is [Name], how can I help you today?
+I can provide a quote on [Product/Service] for your business. There are three factors that need to be considered before making a final decision on the quote.
+Firstly, I will need to know the size of your business and the project requirements.
+Secondly, I will need to understand the industry your business operates in, the competition, and the competitive advantages you have over your competitors.
+Thirdly, I will need to understand your budget, timeline, and marketing goals.
+Please email me at [Email] with your order details or call me directly to discuss the quote further. <issue_start><issue_comment>Title: Bug fix: Ensure that the result of the to_str function with no args returns an empty string.
+username_0: Previous implementation would return a string with empty args.
+<issue_comment>username_0: @username_1 I am unsure if you will be able to take a look at this right away, but I would appreciate your input on the general approach you might take. Any suggestions would be much appreciated.
+<issue_comment>username_1: Thanks for the PR! I'll take a look and let you know my thoughts if there are any objections.
+<issue_comment>username_1: Good question. I think a more thoughtful approach might be to ensure that `to_str` returns a string with no non-empty arguments, even if it has fewer than none. What do you think? <issue_start><issue_comment>Title: Fix warning about PyPy2 failing to load modules
+username_0: Fixes #1620
+<issue_comment>username_1: This looks good to me, except for the pypy2 case which I think needs to be handled differently. If we add some code to handle pypy2's case, we might need to add some logic to handle multiple exceptions for each error.
+<issue_comment>username_1: Good point! Here's an updated version that handles multiple exceptions:
+
+```python
+import pymodules as pm
+pm.PyModule.load_error_handlers = partial(pm.PyModule.load_error_handlers, handler1 = partial(pm.PyModule.load_error_handlers, handler2 = partial(pm.PyModule.load_error_handlers, handler3 = None)))
+```
+
+This code loads an error handler that first executes `handler1` and then `handler2` and `handler3`. This makes sure that the first `PyModule` load is handled before any other `PyModule` load attempts.
+<issue_comment>username_0: Perfect, thanks for the suggestions @username_1! <issue_start><issue_comment>Title: Fix a bug in Python3.6 and 3.7+ support
+username_0: Fixes https://github.com/fastai/fastai2/issues/1620
+<issue_comment>username_1: @username_0 This is great! This fixes the issue with Python3.7+. Any plans for a release or do you want me to take care of this myself?
+<issue_comment>username_0: @username_1 I don't have time to do a release at the moment, but I will try to do so
+<issue_comment>username_0: @username_1 PyPy3.6.7 is still available on PyPI, is it possible to release it? <issue_start><issue_comment>Title: Update to Python 3.6.7 and 3.7.2
+username_0: Since Python 3.6.7 and 3.7.2 have been released, we should update to them.
+<issue_comment>username_1: The problem with Python 3.6.7 is it cannot handle all of the changes made in 3.7.2, so it's not a good choice for use case.
+<issue_comment>username_2: So the problem with 3.7.2 is that it has not addressed many performance issues, and some of the refactoring changes (like the new module scope) may be breaking in some older code.
+<issue_comment>username_0: @username_2 Are you referring to the new module scope change? I don't think this is a performance issue by itself.
+<issue_comment>username_2: Yes, I see your point, but it seems that 3.7.2 still has a lot of performance issues, especially when working with some older libraries. <issue_start><issue_comment
+Time for inference 4: 3.75 sec total, 273.29 tokens/sec
+Bandwidth achieved: 565.44 GB/s
+FLOPS achieved: 0.57 TF/s
+
+Hello, my name is John. I am a professional web and mobile app developer. I created this website to showcase my work and to keep in touch with my clients. I also work as a software developer and I love to write code in different programming languages. Thank you for visiting my website. <issue_start><issue_comment>Title: Show context when viewing a class
+username_0: This is a showstopper for the current design. When looking at a class, it would be very useful to be able to see the context of what is being displayed. For example, when looking at the `ExampleClass` class in the code view, it would be very useful to see that it's a child of `ChildClass`, and that it has a method called `foo` with an argument of type `Bar`. Without this context, it would be a bit hard to navigate through the code and find what's actually going on. <issue_start><issue_comment>Title: Display HTML tags only in highlighted text
+username_0: From https://github.com/Microsoft/vscode/issues/39210#issuecomment-379910885, it looks like the current behavior for HTML tags is that they are not highlighted in any text but only in a background color when using a color scheme. However, when the `highlightHTML` option is toggled on, the HTML tags are highlighted in the color scheme and overlaid on the background. This can take a long time to render, especially for large amounts of text. It would be preferable to only highlight the HTML tags when using the highlightHTML option, and not to display them in the background color. This would make it faster and easier to read the HTML tags in the context of the code view. <issue_start><issue_comment>Title: Add two new features to the repl prompt: tab completion and cursor movement
+username_0: This PR adds two new features to the repl prompt: tab completion and cursor movement. Tab completion works by allowing you to specify the word or phrase you want to find matches for, highlighting the matches in the repl window, and then selecting one of those matches. Cursor movement also works in the same way, but with the benefit of moving the cursor to the next suggestion in the list.
+<issue_comment>username_1: If we can make this work across multiple machines, we can make it part of the "console.js" build script instead of something that users need to install to turn on
+<issue_comment>username_0: Ah, I see. When you say "make it work across multiple machines", do you mean that these two new features should work on all users' VMs at once? If so, I can change the PR to switch to using the "console.js" build script. <issue_start><issue_comment>Title: Fix: `yarn install` will uninstall package when it already exists
+username_0: Fixes #6161
+
+I originally sent a pull request to the wrong branch, so the CI failed. This time, I just rebased and tested on my machine and everything worked as expected.
+<issue_comment>username_0: @username_0 @username_1 I apologize, but I just realized that I didn't fix the naming conflict with the original PR. Is there any chance we can combine this PR with the one I submitted before? It could be easier to merge the two if we rename the original `install` command to `update` or `update-all`.
+<issue_comment>username_1: We should probably rename the "install" command to "update" or "update-all" to not confuse people with the existing "install" command.
+<issue_comment>username_0: Updated that line.
+<issue_comment>username_0: I believe I addressed all of your comments. Let me know what you think! <issue_start><issue_comment>Title: Add FS API support
+username_0: ![image](https://user-images.githubusercontent.com/1693826/38081750-4a6c12e2-3374-11e8-8de1-d7e2f4f9b60f.png)
+<issue_comment>username_0: @username_2 I'm not familr with how you like it, but I think it's better to start with updating the master branch working on the new branch.
+<issue_comment>username_1: @username_0 any plan about releasing as a new version of this library? It would greatly improve the tooling for this kind of tasks.
+<
+Time for inference 5: 3.75 sec total, 272.73 tokens/sec
+Bandwidth achieved: 564.28 GB/s
+FLOPS achieved: 0.57 TF/s
+
+==========
+Batch Size: 1
+Prompt Length: 6
+Generated tokens: 1024
+Average tokens/sec: 273.40
+Memory used: 2.40 GB
+Using device=cuda
+Loading model ...
+Traceback (most recent call last):
+  File "/home/tiantianyi/code/gpt-fast/generate.py", line 480, in <module>
+    main(
+  File "/home/tiantianyi/code/gpt-fast/generate.py", line 325, in main
+    model = _load_model(checkpoint_path, device, precision, use_tp)
+  File "/home/tiantianyi/code/gpt-fast/generate.py", line 262, in _load_model
+    model = model.to(device=device, dtype=precision)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1355, in to
+    return self._apply(convert)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/nn/modules/module.py", line 915, in _apply
+    module._apply(fn)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/nn/modules/module.py", line 915, in _apply
+    module._apply(fn)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/nn/modules/module.py", line 915, in _apply
+    module._apply(fn)
+  [Previous line repeated 1 more time]
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/nn/modules/module.py", line 942, in _apply
+    param_applied = fn(param)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1341, in convert
+    return t.to(
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 136.00 MiB. GPU 0 has a total capacity of 47.54 GiB of which 100.00 MiB is free. Process 2410466 has 27.41 GiB memory in use. Including non-PyTorch memory, this process has 20.03 GiB memory in use. Of the allocated memory 19.17 GiB is allocated by PyTorch, and 2.89 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

@@ -1,0 +1,289 @@
+nohup: ignoring input
+Using device=cuda
+Loading model ...
+Time to load model: 10.22 seconds
+Traceback (most recent call last):
+  File "/home/tiantianyi/code/gpt-fast/generate.py", line 517, in <module>
+    main(
+  File "/home/tiantianyi/code/gpt-fast/generate.py", line 423, in main
+    y, metrics = generate(
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/tiantianyi/code/gpt-fast/generate.py", line 229, in generate
+    next_tokens = speculative_decode(model, draft_model, cur_token, input_pos, speculate_k, **sampling_kwargs)
+  File "/home/tiantianyi/code/gpt-fast/generate.py", line 139, in speculative_decode
+    target_logits = model_forward(
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py", line 655, in _fn
+    return fn(*args, **kwargs)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 1432, in __call__
+    return self._torchdynamo_orig_callable(
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 598, in __call__
+    return _compile(
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 1110, in _compile
+    raise InternalTorchDynamoError(
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 1059, in _compile
+    guarded_code = compile_inner(code, one_graph, hooks, transform)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_utils_internal.py", line 97, in wrapper_function
+    return function(*args, **kwargs)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 761, in compile_inner
+    return _compile_inner(code, one_graph, hooks, transform)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 797, in _compile_inner
+    out_code = transform_code_object(code, transform)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/bytecode_transformation.py", line 1422, in transform_code_object
+    transformations(instructions, code_options)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 257, in _fn
+    return fn(*args, **kwargs)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 715, in transform
+    tracer.run()
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 3498, in run
+    super().run()
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 1337, in run
+    while self.step():
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 1246, in step
+    self.dispatch_table[inst.opcode](self, inst)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 819, in wrapper
+    return inner_fn(self, inst)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 2166, in CALL_FUNCTION
+    self.call_function(fn, args, {})
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 1170, in call_function
+    self.push(fn.call_function(self, args, kwargs))  # type: ignore[arg-type]
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/variables/lazy.py", line 201, in realize_and_forward
+    return getattr(self.realize(), name)(*args, **kwargs)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/variables/nn_module.py", line 952, in call_function
+    return variables.UserFunctionVariable(fn, source=source).call_function(
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/variables/functions.py", line 414, in call_function
+    return super().call_function(tx, args, kwargs)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/variables/functions.py", line 184, in call_function
+    return tx.inline_user_function_return(self, [*self.self_args(), *args], kwargs)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 1187, in inline_user_function_return
+    return InliningInstructionTranslator.inline_call(self, fn, args, kwargs)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 3724, in inline_call
+    return tracer.inline_call_()
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 3903, in inline_call_
+    self.run()
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 1337, in run
+    while self.step():
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 1246, in step
+    self.dispatch_table[inst.opcode](self, inst)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 2330, in LOAD_ATTR
+    self._load_attr(inst)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 2318, in _load_attr
+    result = BuiltinVariable(getattr).call_function(
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/variables/builtin.py", line 1111, in call_function
+    return handler(tx, args, kwargs)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/variables/builtin.py", line 789, in <lambda>
+    return lambda tx, args, kwargs: obj.call_function(
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/variables/builtin.py", line 1111, in call_function
+    return handler(tx, args, kwargs)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/variables/builtin.py", line 945, in builtin_dispatch
+    rv = fn(tx, args, kwargs)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/variables/builtin.py", line 850, in call_self_handler
+    result = self_handler(tx, *args, **kwargs)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/variables/builtin.py", line 1867, in call_getattr
+    return obj.var_getattr(tx, name)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/variables/tensor.py", line 492, in var_getattr
+    result = self.dynamic_getattr(tx, name)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/variables/tensor.py", line 308, in dynamic_getattr
+    real_value = getattr(_input_associated_real_value, name)
+torch._dynamo.exc.InternalTorchDynamoError: AttributeError: 'Tensor' object has no attribute 'mask_mod'
+
+from user code:
+   File "/home/tiantianyi/code/gpt-fast/generate.py", line 119, in model_forward
+    return model(x, input_pos)
+  File "/home/tiantianyi/code/gpt-fast/model.py", line 234, in forward
+    mask.mask_mod = self.get_mask_mod(mask.mask_mod, input_pos[0])
+
+Set TORCHDYNAMO_VERBOSE=1 for the internal stack trace (please do this especially if you're reporting a bug to PyTorch). For even more developer context, set TORCH_LOGS="+dynamo"
+
+Using device=cuda
+Loading model ...
+Time to load model: 10.84 seconds
+Traceback (most recent call last):
+  File "/home/tiantianyi/code/gpt-fast/generate.py", line 517, in <module>
+    main(
+  File "/home/tiantianyi/code/gpt-fast/generate.py", line 423, in main
+    y, metrics = generate(
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/tiantianyi/code/gpt-fast/generate.py", line 229, in generate
+    next_tokens = speculative_decode(model, draft_model, cur_token, input_pos, speculate_k, **sampling_kwargs)
+  File "/home/tiantianyi/code/gpt-fast/generate.py", line 139, in speculative_decode
+    target_logits = model_forward(
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py", line 655, in _fn
+    return fn(*args, **kwargs)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 1432, in __call__
+    return self._torchdynamo_orig_callable(
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 598, in __call__
+    return _compile(
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 1110, in _compile
+    raise InternalTorchDynamoError(
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 1059, in _compile
+    guarded_code = compile_inner(code, one_graph, hooks, transform)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_utils_internal.py", line 97, in wrapper_function
+    return function(*args, **kwargs)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 761, in compile_inner
+    return _compile_inner(code, one_graph, hooks, transform)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 797, in _compile_inner
+    out_code = transform_code_object(code, transform)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/bytecode_transformation.py", line 1422, in transform_code_object
+    transformations(instructions, code_options)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 257, in _fn
+    return fn(*args, **kwargs)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 715, in transform
+    tracer.run()
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 3498, in run
+    super().run()
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 1337, in run
+    while self.step():
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 1246, in step
+    self.dispatch_table[inst.opcode](self, inst)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 819, in wrapper
+    return inner_fn(self, inst)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 2166, in CALL_FUNCTION
+    self.call_function(fn, args, {})
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 1170, in call_function
+    self.push(fn.call_function(self, args, kwargs))  # type: ignore[arg-type]
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/variables/lazy.py", line 201, in realize_and_forward
+    return getattr(self.realize(), name)(*args, **kwargs)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/variables/nn_module.py", line 952, in call_function
+    return variables.UserFunctionVariable(fn, source=source).call_function(
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/variables/functions.py", line 414, in call_function
+    return super().call_function(tx, args, kwargs)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/variables/functions.py", line 184, in call_function
+    return tx.inline_user_function_return(self, [*self.self_args(), *args], kwargs)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 1187, in inline_user_function_return
+    return InliningInstructionTranslator.inline_call(self, fn, args, kwargs)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 3724, in inline_call
+    return tracer.inline_call_()
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 3903, in inline_call_
+    self.run()
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 1337, in run
+    while self.step():
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 1246, in step
+    self.dispatch_table[inst.opcode](self, inst)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 2330, in LOAD_ATTR
+    self._load_attr(inst)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 2318, in _load_attr
+    result = BuiltinVariable(getattr).call_function(
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/variables/builtin.py", line 1111, in call_function
+    return handler(tx, args, kwargs)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/variables/builtin.py", line 789, in <lambda>
+    return lambda tx, args, kwargs: obj.call_function(
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/variables/builtin.py", line 1111, in call_function
+    return handler(tx, args, kwargs)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/variables/builtin.py", line 945, in builtin_dispatch
+    rv = fn(tx, args, kwargs)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/variables/builtin.py", line 850, in call_self_handler
+    result = self_handler(tx, *args, **kwargs)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/variables/builtin.py", line 1867, in call_getattr
+    return obj.var_getattr(tx, name)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/variables/tensor.py", line 492, in var_getattr
+    result = self.dynamic_getattr(tx, name)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/variables/tensor.py", line 308, in dynamic_getattr
+    real_value = getattr(_input_associated_real_value, name)
+torch._dynamo.exc.InternalTorchDynamoError: AttributeError: 'Tensor' object has no attribute 'mask_mod'
+
+from user code:
+   File "/home/tiantianyi/code/gpt-fast/generate.py", line 119, in model_forward
+    return model(x, input_pos)
+  File "/home/tiantianyi/code/gpt-fast/model.py", line 234, in forward
+    mask.mask_mod = self.get_mask_mod(mask.mask_mod, input_pos[0])
+
+Set TORCHDYNAMO_VERBOSE=1 for the internal stack trace (please do this especially if you're reporting a bug to PyTorch). For even more developer context, set TORCH_LOGS="+dynamo"
+
+Using device=cuda
+Loading model ...
+Time to load model: 1.88 seconds
+Traceback (most recent call last):
+  File "/home/tiantianyi/code/gpt-fast/generate.py", line 517, in <module>
+    main(
+  File "/home/tiantianyi/code/gpt-fast/generate.py", line 423, in main
+    y, metrics = generate(
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/tiantianyi/code/gpt-fast/generate.py", line 229, in generate
+    next_tokens = speculative_decode(model, draft_model, cur_token, input_pos, speculate_k, **sampling_kwargs)
+  File "/home/tiantianyi/code/gpt-fast/generate.py", line 139, in speculative_decode
+    target_logits = model_forward(
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py", line 655, in _fn
+    return fn(*args, **kwargs)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 1432, in __call__
+    return self._torchdynamo_orig_callable(
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 598, in __call__
+    return _compile(
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 1110, in _compile
+    raise InternalTorchDynamoError(
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 1059, in _compile
+    guarded_code = compile_inner(code, one_graph, hooks, transform)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_utils_internal.py", line 97, in wrapper_function
+    return function(*args, **kwargs)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 761, in compile_inner
+    return _compile_inner(code, one_graph, hooks, transform)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 797, in _compile_inner
+    out_code = transform_code_object(code, transform)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/bytecode_transformation.py", line 1422, in transform_code_object
+    transformations(instructions, code_options)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 257, in _fn
+    return fn(*args, **kwargs)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 715, in transform
+    tracer.run()
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 3498, in run
+    super().run()
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 1337, in run
+    while self.step():
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 1246, in step
+    self.dispatch_table[inst.opcode](self, inst)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 819, in wrapper
+    return inner_fn(self, inst)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 2166, in CALL_FUNCTION
+    self.call_function(fn, args, {})
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 1170, in call_function
+    self.push(fn.call_function(self, args, kwargs))  # type: ignore[arg-type]
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/variables/lazy.py", line 201, in realize_and_forward
+    return getattr(self.realize(), name)(*args, **kwargs)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/variables/nn_module.py", line 952, in call_function
+    return variables.UserFunctionVariable(fn, source=source).call_function(
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/variables/functions.py", line 414, in call_function
+    return super().call_function(tx, args, kwargs)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/variables/functions.py", line 184, in call_function
+    return tx.inline_user_function_return(self, [*self.self_args(), *args], kwargs)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 1187, in inline_user_function_return
+    return InliningInstructionTranslator.inline_call(self, fn, args, kwargs)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 3724, in inline_call
+    return tracer.inline_call_()
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 3903, in inline_call_
+    self.run()
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 1337, in run
+    while self.step():
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 1246, in step
+    self.dispatch_table[inst.opcode](self, inst)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 2330, in LOAD_ATTR
+    self._load_attr(inst)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 2318, in _load_attr
+    result = BuiltinVariable(getattr).call_function(
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/variables/builtin.py", line 1111, in call_function
+    return handler(tx, args, kwargs)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/variables/builtin.py", line 789, in <lambda>
+    return lambda tx, args, kwargs: obj.call_function(
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/variables/builtin.py", line 1111, in call_function
+    return handler(tx, args, kwargs)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/variables/builtin.py", line 945, in builtin_dispatch
+    rv = fn(tx, args, kwargs)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/variables/builtin.py", line 850, in call_self_handler
+    result = self_handler(tx, *args, **kwargs)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/variables/builtin.py", line 1867, in call_getattr
+    return obj.var_getattr(tx, name)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/variables/tensor.py", line 492, in var_getattr
+    result = self.dynamic_getattr(tx, name)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_dynamo/variables/tensor.py", line 308, in dynamic_getattr
+    real_value = getattr(_input_associated_real_value, name)
+torch._dynamo.exc.InternalTorchDynamoError: AttributeError: 'Tensor' object has no attribute 'mask_mod'
+
+from user code:
+   File "/home/tiantianyi/code/gpt-fast/generate.py", line 119, in model_forward
+    return model(x, input_pos)
+  File "/home/tiantianyi/code/gpt-fast/model.py", line 234, in forward
+    mask.mask_mod = self.get_mask_mod(mask.mask_mod, input_pos[0])
+
+Set TORCHDYNAMO_VERBOSE=1 for the internal stack trace (please do this especially if you're reporting a bug to PyTorch). For even more developer context, set TORCH_LOGS="+dynamo"
+

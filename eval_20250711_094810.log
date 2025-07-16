@@ -1,0 +1,414 @@
+nohup: ignoring input
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [96,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [97,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [98,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [99,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [100,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [101,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [102,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [103,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [104,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [105,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [106,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [107,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [108,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [109,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [110,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [111,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [112,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [113,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [114,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [115,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [116,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [117,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [118,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [119,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [120,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [121,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [122,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [123,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [124,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [125,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [126,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [127,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [0,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [1,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [2,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [3,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [4,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [5,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [6,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [7,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [8,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [9,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [10,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [11,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [12,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [13,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [14,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [15,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [16,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [17,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [18,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [19,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [20,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [21,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [22,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [23,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [24,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [25,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [26,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [27,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [28,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [29,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [30,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [31,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [32,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [33,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [34,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [35,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [36,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [37,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [38,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [39,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [40,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [41,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [42,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [43,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [44,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [45,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [46,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [47,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [48,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [49,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [50,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [51,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [52,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [53,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [54,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [55,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [56,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [57,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [58,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [59,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [60,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [61,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [62,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [63,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [64,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [65,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [66,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [67,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [68,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [69,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [70,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [71,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [72,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [73,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [74,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [75,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [76,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [77,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [78,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [79,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [80,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [81,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [82,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [83,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [84,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [85,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [86,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [87,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [88,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [89,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [90,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [91,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [92,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [93,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [94,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+/tmp/torchinductor_tiantianyi/5g/c5gqgdzrllrsz7tt33aqtix3wwtmq6syszjmi2joufejpnkmjbaf.py:32: unknown: block: [0,0,0], thread: [95,0,0] Assertion `index out of bounds: 0 <= tmp5 < 2048` failed.
+Using device=cuda
+Loading model ...
+Time to load model: 2.75 seconds
+Compilation time: 19.86 seconds
+Traceback (most recent call last):
+  File "/home/tiantianyi/code/gpt-fast/generate.py", line 480, in <module>
+    main(
+  File "/home/tiantianyi/code/gpt-fast/generate.py", line 369, in main
+    device_sync(device=device) # MKG
+  File "/home/tiantianyi/code/gpt-fast/generate.py", line 19, in device_sync
+    torch.cuda.synchronize(device)
+  File "/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/cuda/__init__.py", line 1040, in synchronize
+    return torch._C._cuda_synchronize()
+RuntimeError: CUDA error: device-side assert triggered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+/home/tiantianyi/miniconda3/envs/gpt-fast/lib/python3.10/site-packages/torch/_inductor/lowering.py:7007: UserWarning: 
+Online softmax is disabled on the fly since Inductor decides to
+split the reduction. Cut an issue to PyTorch if this is an
+important use case and you want to speed it up with online
+softmax.
+
+  warnings.warn(
+Using device=cuda
+Loading model ...
+Time to load model: 8.68 seconds
+Compilation time: 201.81 seconds
+Hello, my name is Karen, and I am a 56-year-old woman who has been experiencing a wide range of physical and emotional symptoms over the past seven years. These symptoms include chronic fatigue, brain fog, joint and muscle pain, anxiety, depression, and insomnia. I have seen multiple doctors, undergone numerous tests, and tried various treatments, but none of them have been able to provide a clear diagnosis or effective treatment for my condition.
+
+I have a history of high blood pressure and high cholesterol, and I take medication for these conditions. My doctor recently recommended that I undergo a sleep study to see if my symptoms might be related to sleep apnea, but I am skeptical about this diagnosis and would like to get a second opinion. Is it possible that my symptoms could be related to adrenal dysfunction or another underlying condition? What tests or treatments might be recommended to help diagnose and address my symptoms?
+
+Thank you for your time and any guidance you can provide. The Power of Mentoring and Coaching
+
+Mentoring and coaching are powerful tools that can help individuals achieve their goals, improve their performance, and develop their skills. Both mentoring and coaching involve a relationship between two people, but they differ in their focus and approach.
+
+Mentoring is a relationship in which an experienced person (the mentor) provides guidance, support, and advice to a less experienced person (the mentee). The mentor shares their knowledge, experience, and insights to help the mentee navigate their career or personal development journey. Mentoring is often long-term and focused on personal and professional growth.
+
+Coaching, on the other hand, is a relationship in which a trained professional (the coach) helps an individual set and achieve specific goals. The coach uses a variety of techniques, including questioning, listening, and feedback, to help the individual identify their strengths, weaknesses, and areas for improvement. Coaching is often shorter-term and focused on specific skills or behaviors.
+
+Both mentoring and coaching can be highly effective in helping individuals achieve their goals and develop their skills. However, the best approach depends on the individual's needs and goals. Mentoring may be more appropriate for individuals seeking long-term guidance and support, while coaching may be more appropriate for those seeking to improve specific skills or achieve a specific goal.
+
+If you are considering mentoring or coaching, it is important to do your research and find a qualified mentor or coach who has experience in your specific area of interest. A good mentor or coach will be able to provide you with the guidance, support, and tools you need to achieve your goals and develop your skills. PostgreSQL 13.1 Documentation > 31. Summary of Changes
+
+This chapter provides a summary of changes made in PostgreSQL 13.1, the latest release as of this writing. It is intended to provide a quick overview of the most important new features and changes.
+
+For a complete list of all changes made in this release, please consult the file `src/PGFILEPUB.TXT` in the source distribution of PostgreSQL 13.1.
+
+The following is a summary of some of the most important changes made in PostgreSQL 13.1:
+
+1.
+Improvements to the SQL syntax for handling JSON data. The new features include support for JSON functions, operators, and indexes. Additionally, it is now possible to create views over JSON data and to index individual fields within JSON documents.
+2.
+Enhancements to the query planner. The new features include improved cost estimation, more aggressive parallelization, and better handling of sub-query pushdown. These improvements should result in faster query execution times and better overall performance.
+3.
+A new utility for analyzing and visualizing query plans. The `pg_stat_query_plans` utility allows users to see the actual execution plans for their queries and to compare them with the expected plans. This can help identify performance bottlenecks and other issues.
+4.
+Support for the OpenSSL 1.1.1 encryption library. This update provides improved security and performance for PostgreSQL's SSL/TLS encryption.
+5.
+An updated version of the `plpgsql` programming language. The new version includes several bug fixes and improvements to the syntax for handling exceptions.
+6.
+Improved handling of geometric data types. The new features include support for geometric functions, operators, and indexes. Additionally, PostgreSQL now supports the `ST_AsText` function for converting geometric objects to text representations.
+
+These are just a few of the many new features and changes made in PostgreSQL 13.1. For a complete list of all changes, please consult the file `src/PGFILEPUB.TXT` in the source distribution of PostgreSQL 13.1. Vad är en "länklista"?
+=======================
+
+En länklista är en lista på en webbplats där man kan hitta länkar till andra webbplatser. Länklistor kan vara användbara för att hitta information om ett visst ämne eller för att hitta webbplatser som är relaterade till varandra.
+
+Länklistor kan också vara användbara för att öka trafiken på en webbplats genom att inkludera länkar till andra webbplatser som också lämnar länkar till din webbplats. Detta kan leda till att fler människor besöker din webbplats och att trafiken ökar över tid.
+
+Det är viktigt att notera att länklistor kan också vara problematiskt om de innehåller irrelevanta länkar eller länkar till lågkvalitativa webbplatser. Detta kan skeva trafiken på en webbplats och skada dess rykte. Det är därför viktigt att se till att länklistorna på en webbplats är relevanta och högkvalitativa. The Purpose of this document is to provide an overview of the MERN application that we will be building in this project, the features, and the technologies we will be using to build this application.
+
+Project Title: MERN Application
+
+Project Description:
+This project involves building a web application using the MERN stack (MongoDB, Express, React, and Node.js). The application will allow users to create and manage their to-do lists. It will include features such as adding, editing, and deleting items on the list, marking items as complete, and setting due dates. Additionally, the application will allow users to organize their lists into categories and set reminders for items on the list.
+
+Features:
+
+1. User Authentication and Authorization
+2. To-Do List Creation and Management
+3. Item Adding, Editing, and Deletion
+4. Item Marking as Complete
+5. Due Date Setting
+6. List Categorization
+7. Reminder Setting
+8. Search and Filtering
+9. Notification System
+10. Admin Panel
+
+Technologies:
+
+1. MongoDB - A NoSQL database that will be used to store data for the application
+2. Express - A web framework for Node.js that will be used to handle routing and middleware
+3. React - A JavaScript library for building user interfaces that will be used to build the front-end of the application
+4. Node.js - A JavaScript runtime that will be used to run the server-side of the application
+5. MVC - A software architecture pattern that will be used to organize the application's code
+6. Hooks - A feature in React that allows for state and other React features to be used in functions
+7. Redux - A predictable state container for managing application state that will be used to manage the application's state
+8. Firebase - A Backend-as-a-Service platform that will be used for user authentication, real-time database, and messaging services
+9. Socket.io - A JavaScript library that will be used to handle real-time communication between the client and server
+10. Material-UI - A React UI component library that will be used to build the user interface of the application
+
+This project will be a great opportunity to learn and work with the MERN stack, which is a popular technology stack for building web applications. It will help you gain experience in building real-world applications using the MERN stack and will give you a good understanding of how to use these technologies together to build robust and scalable applications. Home / Sustainability / Carbon Footprint
+Carbon Footprint at Nirmal Lifestyle
+As a responsible organization, we at Nirmal Lifestyle understand the importance of minimizing our carbon footprint and reducing our impact on the environment. We are committed to taking proactive measures to reduce our carbon emissions and promote sustainability in all our operations.
+Some of the initiatives we have taken to reduce our carbon footprint include:
+
+1. Energy-efficient lighting: We have installed energy-efficient LED lighting in all our stores and offices, which has significantly reduced our energy consumption and carbon emissions.
+
+Time for inference 1: 79.15 sec total, 25.88 tokens/sec
+Bandwidth achieved: 665.11 GB/s
+FLOPS achieved: 0.67 TF/s
+
+Hello, my name is Luna, and this is my first post on the new forum. I am a long-time lurker and occasional contributor.
+
+As a language model, I have been trained on a diverse range of texts, including news articles, books, and internet content. While I am able to generate coherent and often informative responses, I am also aware of the limitations of my training data and the potential for biases in my responses.
+
+I am excited to be part of this forum and to engage with other language models and users in discussing a wide range of topics. I look forward to learning from others and contributing to the community. Home > Business > India > Govt to review FDI policy after US firms’ complaints
+https://ift.tt/2yuL22T
+The government has decided to review its foreign direct investment (FDI) policy after several US-based companies expressed concerns over the difficulties they face in doing business in India, a senior official said.
+The move comes after US Secretary of State Mike Pompeo during his recent visit to India raised the issue of market access for American companies in India.
+“We are taking their concerns seriously and will review our FDI policy,” the official told PTI.
+The official said the government is aware of the concerns raised by US companies and is “working to address them”.
+“We believe in a fair and transparent policy framework. We will review our policies and ensure they are investor-friendly and provide a level-playing field to all investors,” the official added.
+In July, the US government had raised concerns over India’s trade policies, including the country’s e-commerce regulations and data localisation requirements, which it said would harm innovation and the ability of US firms to operate in India.
+FDI inflows into India have been on the rise in recent years. According to data from the Department for Promotion of Industry and Internal Trade (DPIIT), FDI equity inflows in India in 2018-19 were USD 64.37 billion, up from USD 60.97 billion in 2017-18. Posts tagged 'Africa'
+The New Audi A4: The Perfect Companion for Long Distances
+The new Audi A4 is the epitome of luxury, sophistication and style. With a range of advanced features, comfortable seating, and a spacious interior, it's the perfect vehicle for any journey.
+Dec 06, 2019 • 335 Views The FINANCIAL -- The G20 finance ministers and central bank governors met in Washington on October 12-13 for their annual meeting, according to the International Monetary Fund (IMF). The meeting was chaired by US Treasury Secretary Janet Yellen, and attended by central bank governors and finance ministers from the G20 countries, as well as representatives from international organizations such as the IMF, the World Bank, and the Organization for Economic Cooperation and Development (OECD).
+The meeting’s agenda included discussions on the global economic outlook, policy responses to the COVID-19 pandemic, international taxation, digital currencies, and financial regulation. The G20 leaders also emphasized the importance of multilateral cooperation and the need to strengthen global economic governance.
+One of the key discussions during the meeting was on the global economic outlook, according to the IMF. The G20 leaders noted that the recovery from the COVID-19 pandemic remains uneven and uncertain, with many emerging market and developing economies facing significant challenges. They also highlighted the need for continued fiscal and monetary support to ensure a robust and inclusive recovery.
+In addition to the global economic outlook, the G20 leaders discussed international taxation, digital currencies, and financial regulation. They welcomed the progress made in the implementation of the G20/OECD’s Two-Pillar Solution to address the challenges posed by the digitalization of the economy to the international tax system, according to the IMF.
+However, the G20 leaders also recognized the need for continued work to ensure a timely and successful implementation of the Two-Pillar Solution. The G20 leaders welcomed the progress made by the Financial Stability Board (FSB) on the implementation of the G20/FSB’s roadmap for enhancing cross-border payment related to stablecoins, and looked forward to further progress in this area.
+Finally, the G20 leaders underlined the importance of multilateral cooperation and the need to strengthen global economic governance, including by modernizing and strengthening the international monetary and financial system. They also emphasized the importance of promoting private sector-led growth, investing in people, and fostering innovation and digitalization to support sustainable and inclusive growth.
+In conclusion, the G20 finance ministers and central bank governors’ meeting in Washington provided an opportunity for the G20 leaders to discuss the global economic outlook, policy responses to the COVID-19 pandemic, international taxation, digital currencies, and financial regulation, as well as the importance of multilateral cooperation and the need to strengthen global economic governance. Subject: Re: [security-services] Security Assertion Markup Language (SAML) and Web Services Security (WS-Security) Profile for SAML
+To: "Mike Justiss" <Mike.Justiss@kainos.com>, "Crystal Greene" <crystal.greene@kainos.com>
+Mike and Crystal,
+Thank you for your feedback. We will consider the potential confusion caused by using multiple names for the same profile and will discuss alternative names that better reflect the profile content and scope.
+We agree that the profile should be more clear and concise, and we will work towards making the profile more accessible to a wider audience.
+We appreciate your input and will consider it as we move forward with the development of the profile.
+Best Regards
+Waleed Arshad
+OASIS Security Services (ss) TC
+From: Mike Justiss [mailto:Mike.Justiss@kainos.com]
+To: 'Waleed Arshad'; 'Crystal Greene'
+Subject: Re: [security-services] Security Assertion Markup Language (SAML) and Web Services Security (WS-Security) Profile for SAML
+Thanks Waleed. I appreciate the updates.
+Mike Justiss
+From: Crystal Greene [mailto:crystal.greene@kainos.com]
+To: 'Waleed Arshad'; 'Mike Justiss'
+Thanks, Waleed. I appreciate the updates.
+Crystal Greene
+Kainos Solutions, Inc. "Honeysuckle Rose" is a song written by Willie Dixon and recorded by American blues musician Willie Dixon in 1972. Asset Store Update: 15 New Assets Now Available
+Asset Store Update: 15 New Assets Now Available!
+It's time for another batch of awesome assets, now available on the Asset Store! Here are just a few of the many new items now live:
+Fantasy Castle Pack
+This pack contains everything you need to create a fantasy castle: walls, towers, arches, and more.
+Contemporary 3D Models Volume 2
+Volume 2 of this popular series includes a variety of contemporary 3D models for use in your scenes.
+Paper Plane Shader
+This shader gives your paper plane 3D models a realistic, textured look.
+Sci-Fi Space Station
+This detailed space station model is perfect for sci-fi environments.
+Outdoor Market 3D Model
+This marketplace scene features a variety of stalls, tents, and people.
+Urban Park 3D Model
+This 3D model features a variety of elements commonly found in urban parks.
+And that's just the beginning. Head on over to the Asset Store to check out all 15 new assets, including 2D and 3D models, shaders, and more. Happy creating! Bringing Music to Life: The Art of Music Production
+Music production is a multifaceted process that involves a wide range of skills and techniques. From composing and arranging to recording and mixing, the art of music production is a vital part of the music industry, and it is the key to bringing music to life.
+In this article, we will take a closer look at the art of music production, including its history, the different stages involved, and some of the key techniques and technologies used by producers today.
+The History of Music Production
+The art of music production has been evolving for over a century. Originally, music was produced and recorded using mechanical devices, such as phonographs and Gramophones. These machines used mechanical devices to capture and reproduce sound, but they were limited in their capabilities and could only produce a limited range of sound frequencies.
+As technology advanced, so too did
+Time for inference 2: 79.15 sec total, 25.88 tokens/sec
+Bandwidth achieved: 665.09 GB/s
+FLOPS achieved: 0.67 TF/s
+
+Hello, my name is Anjali and I am a sophomore at Stanford University. I am interested in exploring different career paths and learning more about various industries. I am excited to connect with professionals from different fields and gain insight into their experiences and advice.
+Anjali's current internship is at a software company where she is working on a project to develop a new feature for their product. She is also involved in volunteer work at a local community center, where she teaches computer skills to underprivileged children.
+In her free time, Anjali enjoys reading, hiking, and trying out new recipes in the kitchen. Home » Articles » Tax Help » IRS Tax Debt Forgiveness: What You Need to Know
+IRS Tax Debt Forgiveness: What You Need to Know
+The Internal Revenue Service (IRS) can be a formidable opponent when dealing with tax debt. It’s easy to feel overwhelmed and helpless when facing significant tax liabilities. However, it’s important to know that there are options available to help alleviate your tax debt burden.
+One such option is tax debt forgiveness, also known as tax relief. In this article, we’ll explore everything you need to know about IRS tax debt forgiveness, including the different types of tax relief available and how to qualify for them.
+What is IRS Tax Debt Forgiveness?
+Types of Tax Relief
+1. Offer in Compromise (OIC)
+2. Installment Agreement
+3. Penalty Abatement
+4. Innocent Spouse Relief
+How to Qualify for Tax Debt Forgiveness
+Steps to Take Before Applying for Tax Relief
+Find a Qualified Tax Professional
+Tax debt forgiveness, or tax relief, is a program that helps taxpayers reduce their tax liabilities, typically by negotiating a settlement with the IRS. The program offers various options to help individuals and businesses settle their tax debts for less than the full amount owed.
+There are several types of tax relief available, each with its own eligibility criteria and application process. Some of the most common types of tax relief include:
+An Offer in Compromise (OIC) is a program that allows taxpayers to settle their tax debt for less than the full amount owed. To qualify for an OIC, taxpayers must prove that they cannot pay their tax debt in full or that paying the full amount would cause them financial hardship.
+Under an OIC, the IRS will negotiate a settlement with the taxpayer, typically in the form of a lump-sum payment or a payment plan. The amount of the settlement will depend on the taxpayer’s financial situation and the amount of tax debt owed.
+An Installment Agreement is a payment plan that allows taxpayers to pay off their tax debt over time. With this option, taxpayers can avoid having their bank accounts garnished or their wages garnished to pay off their tax debt.
+To qualify for an Installment Agreement, taxpayers must prove that they cannot pay their tax debt in full and that they can make their monthly payments on time. The IRS will work with taxpayers to create a payment plan that fits their financial situation.
+Penalty Abatement is a program that can help taxpayers reduce or eliminate penalties and interest on their tax debt. This option is typically available for taxpayers who can show that they have a reasonable cause for not paying their taxes on time or that they were not aware of their tax liability.
+Innocent Spouse Relief is a program that can help taxpayers who are not responsible for their spouse’s tax debt. This option is available for taxpayers who can prove that they did not know or have reason to know that their spouse was not reporting income or underpaying taxes.
+To qualify for tax debt forgiveness, you must meet certain eligibility criteria. For example, you may need to prove that you cannot pay your tax debt in full, that paying the full amount would cause financial hardship, or that you have a reasonable cause for not paying your taxes on time.
+Before applying for tax relief, it’s important to take several steps to prepare. First, gather all of your financial records, including tax returns, bank statements, and pay stubs. This information will be necessary for the IRS to evaluate your eligibility for tax relief.
+Next, consider working with a qualified tax professional. A tax professional can help you navigate the complex tax relief process and ensure that your application is complete and accurate.
+Finally, be prepared to wait. The IRS receives a high volume of tax relief applications, and the processing time can be lengthy. However, if your application is approved, you can breathe a sigh of relief knowing that you’ve resolved your tax debt and have a fresh start.
+In conclusion, IRS tax debt forgiveness, or tax relief, can be a lifesaver for taxpayers struggling with tax liabilities. There are several types of tax relief available, each with its own eligibility criteria and application process. To qualify for tax debt forgiveness, you must meet certain eligibility requirements and have all of your financial records in order.
+If you’re considering tax relief, it’s important to work with a qualified tax professional who can guide you through the process and ensure that your application is complete and accurate. Remember, the IRS receives a high volume of tax relief applications, so be prepared to wait for a decision. However, if your application is approved, you’ll be able to move forward with a clean slate and a sense of financial freedom. The Glorious Mysteries of the Rosary are a set of meditations on Mary's life and the life of Jesus, from the Annunciation to the Resurrection. These mysteries are traditionally divided into three sets of five mysteries each, with each decade (or group of 10 beads) of the rosary corresponding to one of the mysteries. Here are the meditations for the Glorious Mysteries:
+1. The Resurrection of Jesus: On this mystery, we meditate on the fact that Jesus rose from the dead on the third day after his crucifixion, and that his resurrection is a sign of his divinity and a source of eternal life for all who believe in him.
+2. The Ascension of Jesus: This mystery celebrates the fact that Jesus ascended into heaven after his resurrection, and that he now sits at the right hand of the Father in glory.
+3. The Descent of the Holy Spirit: On this mystery, we meditate on the coming of the Holy Spirit upon Mary and the apostles at Pentecost, and on the fact that this event marked the beginning of the Church and the spread of the Gospel throughout the world.
+4. The Assumption of Mary: This mystery celebrates the fact that Mary was assumed into heaven, body and soul, at the end of her life. Catholics believe that Mary is now with her Son in heaven, enjoying an eternal reward for her faithfulness and obedience.
+5. The Coronation of Mary: This final mystery meditates on the fact that Mary was crowned Queen of Heaven and Earth by her Son Jesus, and that she now intercedes on behalf of all believers, bringing our prayers and petitions to her Son. A Guide to Choosing the Right School for Your Child
+Choosing the right school for your child can be a daunting task. With so many options available, it can be difficult to know where to start. To help make the process easier, here is a guide to choosing the right school for your child.
+1. Start by researching different schools in your area. Look for schools that offer the programs and services that meet your child's needs. You can also ask for recommendations from friends, family members, or other parents.
+2. Once you have a list of potential schools, schedule tours and attend open houses. This will give you an opportunity to see the facilities and meet with teachers and administrators. Take note of how you and your child are treated during the visit. This will give you an indication of the level of care and attention you can expect from the school.
+3. Consider the school's academic programs and curriculum. Look for schools that offer a well-rounded education, including a strong foundation in math, science, language arts, and social studies. Consider the school's approach to technology and how it integrates technology into the classroom.
+4. Think about extracurricular activities and sports programs. Does the school offer a variety of activities that align with your child's interests? Are the sports teams competitive? Does the school have a strong reputation for athletics?
+5. Consider the school's culture and community. What is the school's mission and philosophy? Does it align with your values and beliefs? Are the students and faculty diverse? Does the school have a strong sense of community and parent involvement?
+6. Look at the school's test scores and academic performance. Check the school's website or consult with the school's administration to see how the school performs on standardized tests. Look for schools with high
+Time for inference 3: 79.15 sec total, 25.88 tokens/sec
+Bandwidth achieved: 665.13 GB/s
+FLOPS achieved: 0.67 TF/s
+
+Hello, my name is Kadence and I am a 21-year-old musician and artist from New York City. I've been creating music for as long as I can remember, and it's been a huge part of my life. I started out making hip-hop and rap music, but over time, I've started to experiment with different genres and sounds. My music is heavily influenced by my experiences, emotions, and thoughts, and I try to bring a unique perspective to every song I create. I'm constantly looking for ways to push boundaries and try new things, and I'm excited to see where my music will take me next. You are here: Home / Soup Du Jour / Governor Rick Scott Announces $17.5 Million for Affordable Housing in North Central Florida
+Governor Rick Scott Announces $17.5 Million for Affordable Housing in North Central Florida
+Governor Rick Scott announced today that the Florida Housing Finance Corporation (FHFC) has awarded $17.5 million for affordable housing in North Central Florida. This funding is part of the $220 million that Governor Scott dedicated to the Florida Housing Finance Corporation in the 2018-2019 budget to help address the state’s affordable housing needs.
+Governor Scott said, “I’m proud to announce that we’re awarding $17.5 million for affordable housing in North Central Florida. In Florida, we believe that every Floridian deserves access to safe, affordable and stable housing. This funding will help provide additional housing opportunities for families in need and support our local economies. We’ll continue to work to ensure that all Floridians have access to high-quality, affordable housing options.”
+The $17.5 million in funding will be used for the construction and rehabilitation of affordable housing units throughout North Central Florida, including Alachua, Bradford, Columbia, Dixie, Gilchrist, Levy, Marion, Putnam, St. Johns, Suwannee, and Union counties. The funding will also be used for down payment and closing cost assistance programs for low-income and moderate-income families.
+The Florida Housing Finance Corporation received 69 applications requesting more than $142 million in funding for affordable housing projects throughout the state. The funding allocated today is part of the $220 million that Governor Scott dedicated to the Florida Housing Finance Corporation in the 2018-2019 budget.
+Filed Under: Soup Du Jour Tagged With: affordable housing, Florida Housing Finance Corporation, Governor Rick Scott, North Central Florida You are here: Home / Archives for johannesburg
+Five of the best things to do in Johannesburg
+Johannesburg, the largest city in South Africa, is a vibrant and diverse destination that has plenty to offer visitors. From its rich history and culture to its stunning natural attractions, here are five of the best things to do in Johannesburg. 1. Visit the Apartheid Museum The Apartheid Museum in Johannesburg is a […]
+Filed Under: Travel Tagged With: johannesburg, South Africa, things to do, travel guide John Barrowman at the Empire Music Hall, Belfast
+John Barrowman is an actor, singer, and author with a career spanning more than three decades. He is best known for his roles in the TV shows Doctor Who and Torchwood, as well as his hit musicals in London's West End.
+Barrowman's music career includes several albums and singles, including his debut album Another Side, which was released in 2004. In 2010, he released his second album, The Very Best of John Barrowman, which featured covers of popular songs as well as some original tracks.
+Barrowman's theater credits include playing the role of Bobby in the West End production of Stephen Sondheim's Company, as well as leading roles in musicals such as Miss Saigon, Sunset Boulevard, and Matador. He has also appeared in several films and TV shows, including the hit movie musical The Phantom of the Opera.
+John Barrowman is known for his charismatic and energetic performances, and his shows are always a hit with audiences around the world. Whether he's singing, acting, or telling stories, Barrowman has a talent for connecting with his audience and creating a memorable experience. 번역결과  
+번역결과  
+번역결과
+번역결과번역결과번역결과 Home > Archives (2006 on) > 2019 > India’s Emerging Role in Africa: Implications for the Global (...)
+Mainstream, VOL LVII No 44 New Delhi October 26, 2019
+India’s Emerging Role in Africa: Implications for the Global (Dis)Order
+The emergence of India as a leading player in Africa has significant consequences for the global (dis)order. The Indian presence in Africa, driven by economic, political and strategic considerations, is increasingly being perceived as a challenge to the traditional Western dominance in the region. This article examines the implications of India’s growing engagement with Africa for the global order, with a particular focus on the political and economic dimensions.
+India’s engagement with Africa is driven by its aspirations to emerge as a global power, its growing economic needs, and its strategic interests. India’s Look East policy, launched in the early 1990s, was aimed at enhancing economic cooperation with Southeast Asian countries, including Singapore, Malaysia, and Indonesia, as well as with China, Japan, and South Korea. However, in recent years, India has increasingly looked to Africa as a source of raw materials, market access, and strategic partnerships.
+The political dimension of India’s engagement with Africa is characterised by a growing interest in African affairs. This has led to a significant increase in high-level visits, the signing of strategic partnerships, and the establishment of new embassies and diplomatic missions across the continent. India has also sought to deepen its engagement with regional organisations such as the African Union, the South African Development Community (SADC), and the East African Community (EAC).
+The economic dimension of India’s engagement with Africa is equally significant. India’s trade with Africa has grown rapidly in recent years, with bilateral trade between the two regions reaching $62.6 billion in 2018. India is now Africa’s third-largest trading partner, after China and the European Union. Indian investment in Africa has also increased significantly in recent years, with Indian companies investing in sectors such as telecommunications, retail, and infrastructure.
+However, the growing Indian presence in Africa has also raised concerns about the potential implications for the global order. Some analysts argue that India’s increasing engagement with Africa could lead to a shift in the balance of power in the region, with India emerging as a rival to Western powers such as the United States, France, and the United Kingdom. This, in turn, could lead to a more multipolar world, with India and other emerging powers challenging the traditional Western dominance of the global order.
+Others argue that India’s engagement with Africa could lead to a more contested and unpredictable global order. They suggest that the growing Indian presence in Africa could lead to increased competition for resources, market share, and strategic influence, with potential consequences for regional stability and the global balance of power.
+In conclusion, India’s emerging role in Africa has significant implications for the global (dis)order. While India’s engagement with Africa is driven by economic, political, and strategic considerations, it is increasingly being perceived as a challenge to traditional Western dominance in the region. The political and economic dimensions of India’s engagement with Africa are likely to shape the global order in the coming years, with potential implications for the balance of power, regional stability, and the emergence of new powers in the global order. In this latest adventure in the long-running series, Stephanie Plum once again finds herself in the middle of chaos, with her life in danger from all directions. Plum, a bounty hunter from New Jersey, is hired by her cousin Vinnie to track down a man who skipped bail and disappeared. But when she discovers that the man is linked to a dangerous mobster, she realizes that her mission could be too dangerous for her to handle alone.
+As Plum delves deeper into the case, she finds herself caught between the competing interests of the mob, the FBI, and her own boss, who is determined to bring the skip to justice. Plum's life is threatened at every turn, and she must use all her wit and cunning to stay one step ahead of her enemies.
+With her signature humor and style, Janet Evan
+Time for inference 4: 79.14 sec total, 25.88 tokens/sec
+Bandwidth achieved: 665.14 GB/s
+FLOPS achieved: 0.67 TF/s
+
+Hello, my name is Vicuna, and I'm glad to meet you all. I'm originally from New York, but I've been living in Los Angeles for the past few years. I'm a fan of tennis, and I enjoy going to the gym and practicing yoga in my free time. I'm a dog lover, and I have a beagle named Bella who I adore. I'm also a big movie buff, and I love going to the theater to see the latest releases. I'm excited to be a part of this community and to get to know all of you! Joey is a sweet and thoughtful young man who loves hiking and exploring the outdoors. He is an active member of his church and enjoys volunteering in his community. Joey is a skilled and motivated student who works hard to achieve his goals. He is also a talented musician and enjoys playing the guitar and piano. Joey is a kind and empathetic friend who is always willing to lend a helping hand to those in need. What is the most common reason for using a home equity loan?
+Home equity loans are also commonly used for debt consolidation, making home improvements, and funding education expenses. This is a placeholder page for Shauna Dill, which means this person is not currently on this site. We do suggest using the tools below to find Shauna Dill.
+You are visiting the placeholder page for Shauna Dill. This page is here because someone used our placeholder utility to look for Shauna Dill. We created this page automatically in hopes Shauna Dill would find it. If you are not Shauna Dill, but are an alumni of Forest High School Forest, MS, register on this site for free now. The first thing you should know about the all-new 2019 Subaru Forester is that it's not the same old car you've been driving for years. The Subaru Forester 2019 model year brings a lot of new updates and features to the table, making it an even more compelling choice for drivers in the market for a compact SUV.
+The 2019 Forester is now available at our Subaru dealership near Seattle, and we'd love to show you around and help you find the perfect new Forester to fit your driving needs.
+To start, the 2019 Subaru Forester gets an updated exterior design that's more aggressive and modern. The front end features a new grille and headlight design, and the sides get new wheels and sheet metal, too. The rear end of the car has also been revised, with new taillights and a new bumper.
+Inside, the 2019 Forester gets a new infotainment system that's more responsive and has a sleeker interface. Subaru has also added more standard safety features to the car, including adaptive cruise control, lane keep assist, and automatic emergency braking.
+One of the biggest changes to the 2019 Forester is the addition of a new turbocharged engine option. This engine produces 260 horsepower and 277 lb-ft of torque, making it one of the most powerful SUVs in its class. It's also more fuel-efficient than the base engine, getting around 26 mpg combined.
+Another big change for the 2019 Forester is the addition of a new feature called "DriverFocus." This system uses a camera and facial recognition software to monitor the driver's attention and alert them if they begin to get drowsy or distracted.
+The 2019 Subaru Forester is available in several different trim levels, each with its own set of features and options. The base model comes with a 2.5-liter four-cylinder engine that produces 176 horsepower and gets around 26 mpg combined. It also comes with features like Apple CarPlay and Android Auto, a rearview camera, and Subaru's EyeSight driver assist technology.
+The top-of-the-line Forester Touring model gets the new turbocharged engine, along with features like a 10-way power driver's seat, a heated steering wheel, and a harman/kardon premium audio system.
+If you're interested in learning more about the all-new 2019 Subaru Forester, come see us at our Subaru dealership near Seattle. We can show you around the car, answer any questions you have, and even help you get behind the wheel for a test drive. We're excited to show you what this new Forester has to offer! The University of Houston System is a public university system in Houston, Texas, United States. The system consists of four institutions: the University of Houston (UH), the University of Houston–Clear Lake (UHCL), the University of Houston–Downtown (UHD), and the University of Houston–Victoria (UHV). The University of Houston System was created in 1977 by the Texas Legislature with the merger of the University of Houston and its branch colleges.
+The University of Houston was founded in 1939 by J. Marion Requard, a Houston businessman, as Houston Junior College. The college began offering freshman and sophomore courses in 1941 and was granted university status in 1951. In 1967, the University of Houston–Clear Lake was established as the University of Houston's branch campus in the Clear Lake area. In 1974, the University of Houston–Downtown was founded to serve the downtown Houston area. In 1975, the University of Houston–Victoria was established in Victoria, Texas.
+The University of Houston System is governed by a board of regents appointed by the governor of Texas. The board sets policy and oversees the administration of the system and its institutions. The system's chancellor serves as the chief executive officer of the system and is responsible for implementing the policies set by the board. The Role Of The Radiology Department In A Hospital is free HD wallpaper. This wallpaper was upload at April 20, 2019 upload by admin in .You can download it in your computer by clicking resolution image in Download by size:. Don't forget to rate and comment if you interest with this wallpaper. The following are the available modules for the Management of Information Systems (MGMT460) subject. These modules are organized into categories based on their functions and characteristics. For a comprehensive understanding of MGMT460, it is recommended that students review all modules in each category.
+Category 1: Strategic Alignment and Planning. This entry was posted on Thursday, May 30th, 2013 at 11:29 am	and is filed under . You can follow any responses to this entry through the RSS 2.0 feed. You can leave a response, or trackback from your own site. I am currently a 4th year PhD student in the History of Science, Technology, and Medicine program at the University of Manchester. My research focuses on the history of infectious disease, with a particular emphasis on the social and cultural contexts of epidemic outbreaks. My dissertation explores the history of the bubonic plague in colonial Mexico, and I am particularly interested in how the disease impacted indigenous communities in the region.
+Before coming to Manchester, I received my undergraduate degree in History and Science, Technology, and Society from the University of Pennsylvania. While there, I also worked as a research assistant on a project investigating the history of medical experimentation on prisoners in the United States.
+In my free time, I enjoy cooking, hiking, and playing the piano. The Community Foundation of the Gunnison Valley is proud to provide grants to non-profits organizations that serve the Gunnison Valley. Organizations that are interested in applying for a grant from the Community Foundation of the Gunnison Valley should complete the grant application form and submit it along with all required documentation to the Community Foundation of the Gunnison Valley by the deadline.
+Eligible organizations include those that are recognized by the IRS as tax-exempt under Section 501(c)(3) of the Internal Revenue Code. Additionally, the organization must be based in or serve the Gunnison Valley and must not engage in discrimination on the basis of race, gender, religion, national origin, sexual orientation, or other unlawful factors.
+Grant requests are reviewed by the Community Foundation of the Gunnison Valley Board of Directors, and the board makes the final decision regarding grant awards. The board considers a variety of factors when evaluating grant requests, including the organization's mission and goals, the project's budget and feasibility, the project's impact on the Gunnison Valley, and the organization's ability to complete the project successfully.
+If you have any questions about the Community Foundation of the Gunnison Valley's grant application process or would like more information about the grants that are available, please
+Time for inference 5: 79.15 sec total, 25.88 tokens/sec
+Bandwidth achieved: 665.13 GB/s
+FLOPS achieved: 0.67 TF/s
+
+==========
+Batch Size: 1
+Prompt Length: 6
+Generated tokens: 2048
+Average tokens/sec: 25.88
+Memory used: 28.26 GB
