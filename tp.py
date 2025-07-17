@@ -9,29 +9,34 @@ from typing import List, Optional
 import torch
 import torch.distributed as dist
 from torch import nn
+
 if os.uname().sysname != "Darwin":
     from torch.distributed import _functional_collectives as funcol
 else:
     # Distributed is not supported on MacOS
     funcol = None
 
-from model import Attention, FeedForward, Transformer
-from quantize import WeightOnlyInt4Linear
+from .model import Attention, FeedForward, Transformer
+from .quantize import WeightOnlyInt4Linear
 
 
 def _get_rank() -> int:
     return int(os.environ.get("LOCAL_RANK", "0"))
 
+
 def is_local():
     return _get_rank() == 0
+
 
 def local_break():
     if is_local():
         breakpoint()
     dist.barrier()
 
+
 def _get_world_size() -> int:
     return int(os.environ.get("LOCAL_WORLD_SIZE", "1"))
+
 
 def maybe_init_dist() -> Optional[int]:
     try:
@@ -57,15 +62,13 @@ def _apply_tp_linear(linear: nn.Linear, style: str, weight_splits: List[int] = [
 
     # Linear's weight matrix is transposed, and is of shape
     # (linear.out_features, linear.in_features)
-    dim_lookup = {
-        "colwise": (0, "out_features"),
-        "rowwise": (1, "in_features")
-    }
+    dim_lookup = {"colwise": (0, "out_features"), "rowwise": (1, "in_features")}
     assert style in dim_lookup
     shard_dim, size_attr = dim_lookup[style]
 
     # ensure we can shard evenly
     assert getattr(linear, size_attr) % world_size == 0
+
     def shard(x, dim):
         assert x.size(dim=dim) % world_size == 0
         return torch.tensor_split(x, world_size, dim=dim)[rank]
@@ -75,7 +78,7 @@ def _apply_tp_linear(linear: nn.Linear, style: str, weight_splits: List[int] = [
         q = shard(q, dim)
         k = shard(k, dim)
         v = shard(v, dim)
-        return torch.cat((q,k,v), dim=dim)
+        return torch.cat((q, k, v), dim=dim)
 
     # shard
     if weight_splits:
@@ -83,7 +86,7 @@ def _apply_tp_linear(linear: nn.Linear, style: str, weight_splits: List[int] = [
         assert len(weight_splits) == 3
 
         if isinstance(linear, WeightOnlyInt4Linear):
-            sharded_weight = shard_qkv(linear.weight, shard_dim, [i//8 for i in weight_splits])
+            sharded_weight = shard_qkv(linear.weight, shard_dim, [i // 8 for i in weight_splits])
             linear.scales_and_zeros = shard_qkv(linear.scales_and_zeros, 1 - shard_dim, weight_splits)
         else:
             sharded_weight = shard_qkv(linear.weight, shard_dim, weight_splits)
@@ -94,7 +97,10 @@ def _apply_tp_linear(linear: nn.Linear, style: str, weight_splits: List[int] = [
         if isinstance(linear, WeightOnlyInt4Linear):
             linear.scales_and_zeros = shard(linear.scales_and_zeros, 1 - shard_dim)
             if style == "rowwise":
-                assert linear.scales_and_zeros.shape[0] * 32 == sharded_weight.shape[1] * sharded_weight.shape[2] * sharded_weight.shape[3]
+                assert (
+                    linear.scales_and_zeros.shape[0] * 32
+                    == sharded_weight.shape[1] * sharded_weight.shape[2] * sharded_weight.shape[3]
+                )
                 assert linear.scales_and_zeros.shape[1] == sharded_weight.shape[0] * 8
         if hasattr(linear, "scales") and style == "colwise":
             linear.scales = shard(linear.scales, 0)
@@ -117,8 +123,7 @@ def _apply_tp_ffn(mlp: FeedForward) -> None:
     _apply_tp_linear(mlp.w2, "rowwise")
 
     world_size = _get_world_size()
-    mlp.register_forward_hook(lambda _module, _input, output: funcol.all_reduce(
-        output, "sum", list(range(world_size))))
+    mlp.register_forward_hook(lambda _module, _input, output: funcol.all_reduce(output, "sum", list(range(world_size))))
 
 
 def _apply_tp_attn(attn: Attention) -> None:
@@ -136,8 +141,9 @@ def _apply_tp_attn(attn: Attention) -> None:
     attn.head_dim = attn.dim // attn.n_head
     attn.n_local_heads = attn.n_local_heads // world_size
 
-    attn.register_forward_hook(lambda _module, _input, output: funcol.all_reduce(
-        output[0], "sum", list(range(world_size))))
+    attn.register_forward_hook(
+        lambda _module, _input, output: funcol.all_reduce(output[0], "sum", list(range(world_size)))
+    )
 
 
 def _apply_tp_Transformer(Transformer: Transformer) -> None:
