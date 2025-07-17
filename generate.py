@@ -279,7 +279,7 @@ def _load_model(checkpoint_path, device, precision, use_tp):
     model.load_state_dict(checkpoint, assign=True)
 
     if use_tp:
-        from tp import apply_tp
+        from .tp import apply_tp
 
         print("Applying tensor parallel to model ...")
         apply_tp(model)
