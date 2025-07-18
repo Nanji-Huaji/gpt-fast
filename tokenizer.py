@@ -5,6 +5,7 @@ from tiktoken.load import load_tiktoken_bpe
 from pathlib import Path
 from typing import Dict
 
+
 class TokenizerInterface:
     def __init__(self, model_path):
         self.model_path = model_path
@@ -20,6 +21,7 @@ class TokenizerInterface:
 
     def eos_id(self):
         raise NotImplementedError("This method should be overridden by subclasses.")
+
 
 class SentencePieceWrapper(TokenizerInterface):
     def __init__(self, model_path):
@@ -37,6 +39,56 @@ class SentencePieceWrapper(TokenizerInterface):
 
     def eos_id(self):
         return self.processor.eos_id()
+
+    @property
+    def special_tokens_map(self):
+        """
+        Returns a dictionary mapping special token types to their string representations.
+        This matches HuggingFace tokenizer's special_tokens_map format.
+        """
+        special_tokens = {}
+
+        # Add BOS token if it exists
+        if self.processor.bos_id() != -1:
+            special_tokens["bos_token"] = "<s>"
+
+        # Add EOS token if it exists
+        if self.processor.eos_id() != -1:
+            special_tokens["eos_token"] = "</s>"
+
+        # Add UNK token if it exists
+        if self.processor.unk_id() != -1:
+            special_tokens["unk_token"] = "<unk>"
+
+        # Add PAD token if it exists
+        if self.processor.pad_id() != -1:
+            special_tokens["pad_token"] = "<pad>"
+
+        return special_tokens
+
+    @property
+    def special_tokens_ids(self):
+        """
+        Returns a dictionary mapping special token strings to their IDs.
+        """
+        special_tokens = {}
+
+        # Add BOS and EOS tokens if they exist
+        if self.processor.bos_id() != -1:
+            special_tokens["<s>"] = self.processor.bos_id()
+        if self.processor.eos_id() != -1:
+            special_tokens["</s>"] = self.processor.eos_id()
+
+        # Add UNK token if it exists
+        if self.processor.unk_id() != -1:
+            special_tokens["<unk>"] = self.processor.unk_id()
+
+        # Add PAD token if it exists
+        if self.processor.pad_id() != -1:
+            special_tokens["<pad>"] = self.processor.pad_id()
+
+        return special_tokens
+
 
 class TiktokenWrapper(TokenizerInterface):
     """
@@ -65,13 +117,8 @@ class TiktokenWrapper(TokenizerInterface):
             "<|end_header_id|>",
             "<|reserved_special_token_4|>",
             "<|eot_id|>",  # end of turn
-        ] + [
-            f"<|reserved_special_token_{i}|>"
-            for i in range(5, self.num_reserved_special_tokens - 5)
-        ]
-        self.special_tokens = {
-            token: num_base_tokens + i for i, token in enumerate(special_tokens)
-        }
+        ] + [f"<|reserved_special_token_{i}|>" for i in range(5, self.num_reserved_special_tokens - 5)]
+        self.special_tokens = {token: num_base_tokens + i for i, token in enumerate(special_tokens)}
         self.model = tiktoken.Encoding(
             name=Path(model_path).name,
             pat_str=self.pat_str,
@@ -81,6 +128,13 @@ class TiktokenWrapper(TokenizerInterface):
         # BOS / EOS token IDs
         self._bos_id: int = self.special_tokens["<|begin_of_text|>"]
         self._eos_id: int = self.special_tokens["<|end_of_text|>"]
+
+    @property
+    def special_tokens_map(self):
+        """
+        Returns a dictionary mapping special token names to their IDs.
+        """
+        return self.special_tokens
 
     def encode(self, text):
         return self.model.encode(text)
@@ -94,10 +148,11 @@ class TiktokenWrapper(TokenizerInterface):
     def eos_id(self):
         return self._eos_id
 
+
 def get_tokenizer(tokenizer_model_path, model_name):
     """
     Factory function to get the appropriate tokenizer based on the model name.
-    
+
     Args:
     - tokenizer_model_path (str): The file path to the tokenizer model.
     - model_name (str): The name of the model, used to determine the tokenizer type.

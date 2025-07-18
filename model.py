@@ -261,6 +261,18 @@ class Transformer(nn.Module):
             device
         )  # 确保 freqs_cis 在正确设备上
 
+    @property
+    def dtype(self) -> torch.dtype:
+        if hasattr(self.output, "scales") and isinstance(self.output.scales, torch.Tensor):
+            return self.output.scales.dtype
+        elif hasattr(self.output, "scales_and_zeros") and isinstance(self.output.scales_and_zeros, torch.Tensor):
+            return self.output.scales_and_zeros.dtype
+        elif hasattr(self.output, "weight"):
+            return self.output.weight.dtype
+        else:
+            print("Warning: output layer does not have scales or weight, defaulting to bfloat16")
+            return torch.bfloat16
+
     def forward(self, mask: BlockMask, idx: Tensor, input_pos: Optional[Tensor] = None) -> Tensor:
         assert self.freqs_cis is not None, "Caches must be initialized first"
 
