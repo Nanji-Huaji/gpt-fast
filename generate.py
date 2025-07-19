@@ -79,6 +79,17 @@ def prefill(model: Transformer, x: torch.Tensor, input_pos: torch.Tensor, **samp
     return sample(logits, **sampling_kwargs)[0]
 
 
+def _prefill(
+    model: Transformer, x: torch.Tensor, input_pos: torch.Tensor, max_seq_length: int, **sampling_kwargs
+) -> torch.Tensor:
+    # input_pos: [B, S]
+    if max_seq_length is None or max_seq_length <= 0:
+        print("Warning: max_seq_length is not set or invalid")
+    mask = create_block_mask(causal_mask, 1, 1, input_pos.shape[0], max_seq_length, device=x.device)
+    logits = model(mask, x, input_pos)
+    return sample(logits, **sampling_kwargs)[0]
+
+
 def decode_one_token(
     model: Transformer, x: torch.Tensor, input_pos: torch.Tensor, block_mask: BlockMask, **sampling_kwargs
 ) -> Tuple[torch.Tensor, torch.Tensor]:
