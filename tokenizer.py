@@ -3,6 +3,7 @@ import sentencepiece as spm
 import tiktoken
 from tiktoken.load import load_tiktoken_bpe
 from pathlib import Path
+import torch
 from typing import Dict
 
 
@@ -31,7 +32,14 @@ class SentencePieceWrapper(TokenizerInterface):
     def encode(self, text):
         return self.processor.EncodeAsIds(text)
 
-    def decode(self, tokens):
+    def decode(self, tokens, **kwargs):
+        if isinstance(tokens, torch.Tensor):
+            print("Converting tokens from torch.Tensor to list.")
+            tokens = tokens.to(torch.long).flatten().cpu().tolist()
+        elif isinstance(tokens, list):
+            tokens = [int(token_id) for token_id in tokens]
+        else:
+            raise TypeError("Tokens must be a list or torch.Tensor.")
         return self.processor.DecodeIds(tokens)
 
     def bos_id(self):

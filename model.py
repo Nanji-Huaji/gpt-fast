@@ -212,6 +212,11 @@ class KVCache(nn.Module):
 
         return k_out, v_out
 
+    def reset(self):
+        print("[DEBUG] Resetting KVCache by zeroing tensors.")
+        self.k_cache.zero_()
+        self.v_cache.zero_()
+
 
 class Transformer(nn.Module):
     def __init__(self, config: ModelArgs) -> None:
