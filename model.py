@@ -213,7 +213,7 @@ class KVCache(nn.Module):
         return k_out, v_out
 
     def reset(self):
-        print("[DEBUG] Resetting KVCache by zeroing tensors.")
+        """Reset the KV cache to zero."""
         self.k_cache.zero_()
         self.v_cache.zero_()
 
@@ -236,14 +236,17 @@ class Transformer(nn.Module):
 
     def setup_caches(self, max_batch_size, max_seq_length):
         if self.max_seq_length >= max_seq_length and self.max_batch_size >= max_batch_size:
+            print(
+                f"[setup_caches] 已存在足够大的KVCache: max_seq_length={self.max_seq_length}, max_batch_size={self.max_batch_size}"
+            )
             return
 
         # 获取模型当前设备
         device = self.device
 
         head_dim = self.config.dim // self.config.n_head
-        max_seq_length = find_multiple(max_seq_length, 8)
-        self.max_seq_length = max_seq_length
+        max_seq_length_aligned = find_multiple(max_seq_length, 8)
+        self.max_seq_length = max_seq_length_aligned
         self.max_batch_size = max_batch_size
         dtype = self.output.weight.dtype
         # For quantized layers, dtype is encoded in scales
@@ -251,10 +254,17 @@ class Transformer(nn.Module):
             dtype = self.output.scales.dtype
         elif hasattr(self.output, "scales_and_zeros"):
             dtype = self.output.scales_and_zeros.dtype
-        for b in self.layers:
+
+        print(
+            f"[setup_caches] 开始为每层创建KVCache，batch_size={max_batch_size}, seq_length={max_seq_length_aligned}, n_local_heads={self.config.n_local_heads}, head_dim={head_dim}, dtype={dtype}"
+        )
+        for i, b in enumerate(self.layers):
             b.attention.kv_cache = KVCache(
-                max_batch_size, max_seq_length, self.config.n_local_heads, head_dim, dtype
+                max_batch_size, max_seq_length_aligned, self.config.n_local_heads, head_dim, dtype
             ).to(device)
+            print(
+                f"  - Layer {i}: KVCache shape = ({max_batch_size}, {self.config.n_local_heads}, {max_seq_length_aligned}, {head_dim}), dtype={dtype}"
+            )
 
         self.freqs_cis = precompute_freqs_cis(
             self.config.block_size,
@@ -265,6 +275,9 @@ class Transformer(nn.Module):
         ).to(
             device
         )  # 确保 freqs_cis 在正确设备上
+        print(
+            f"[setup_caches] freqs_cis shape: {self.freqs_cis.shape}, dtype: {self.freqs_cis.dtype}, device: {device}"
+        )
 
     @property
     def dtype(self) -> torch.dtype:
@@ -358,10 +371,27 @@ class Attention(nn.Module):
         q, k, v = map(lambda x: x.transpose(1, 2), (q, k, v))
 
         if self.kv_cache is not None:
+            try:
+                # print(
+                #     f"    [Attention.forward] KVCache update 前: 当前输入 k shape: {k.shape}, input_pos: {input_pos.tolist()}"
+                # )
+                pass
+            except Exception as e:
+                print(f"    [Attention.forward] KVCache update 前: 错误: {e}")
             k, v = self.kv_cache.update(input_pos, k, v)
 
-        y = flex_attention(q, k, v, block_mask=mask, enable_gqa=(self.n_head != self.n_local_heads))
-
+        q_len = q.shape[2]
+        kv_len = k.shape[2]
+        block_mask = (
+            mask if mask is not None else BlockMask(q_len, kv_len, self.get_mask_mod(mask.mask_mod, input_pos[0]))
+        )
+        try:
+            y = flex_attention(q, k, v, block_mask=block_mask, enable_gqa=(self.n_head != self.n_local_heads))
+            # 上一行会触发异常，
+        except Exception as e:
+            print(f"    [Attention.forward] flex_attention 错误: {e}")
+            print(f"异常发生前 flex_attention 输入 q_len: {q_len}, kv_len: {kv_len}, block_mask: {block_mask}")
+            raise e
         y = y.transpose(1, 2).contiguous().view(bsz, seqlen, self.dim)
 
         y = self.wo(y)
