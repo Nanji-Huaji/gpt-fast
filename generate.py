@@ -14,6 +14,8 @@ import torch._dynamo.config
 import torch._inductor.config
 from torch.nn.attention.flex_attention import BlockMask, create_block_mask
 
+from transformers import AutoTokenizer, PreTrainedTokenizer
+
 
 def device_sync(device):
     if "cuda" in device:
@@ -31,6 +33,8 @@ torch._inductor.config.fx_graph_cache = True
 torch._functorch.config.enable_autograd_cache = True
 
 default_device = "cuda" if torch.cuda.is_available() else "cpu"
+
+# 调试完毕后可以取消注释以下行以启用编译
 
 create_block_mask = torch.compile(create_block_mask)
 
@@ -76,6 +80,9 @@ def prefill(model: Transformer, x: torch.Tensor, input_pos: torch.Tensor, **samp
     # input_pos: [B, S]
     mask = create_block_mask(causal_mask, 1, 1, input_pos.shape[0], model.max_seq_length, device=x.device)
     logits = model(mask, x, input_pos)
+    res = sample(logits, **sampling_kwargs)[0]
+    if (res > 32000).any():
+        pass
     return sample(logits, **sampling_kwargs)[0]
 
 
@@ -83,10 +90,15 @@ def _prefill(
     model: Transformer, x: torch.Tensor, input_pos: torch.Tensor, max_seq_length: int, **sampling_kwargs
 ) -> torch.Tensor:
     # input_pos: [B, S]
-    if max_seq_length is None or max_seq_length <= 0:
-        print("Warning: max_seq_length is not set or invalid")
+    # if max_seq_length is None or max_seq_length <= 0:
+    #     print("Warning: max_seq_length is not set or invalid")
+    # print(f"input_pos shape: {input_pos.shape}, max_seq_length: {max_seq_length}")
+    # print(f"input_pos values: {input_pos}")
     mask = create_block_mask(causal_mask, 1, 1, input_pos.shape[0], max_seq_length, device=x.device)
     logits = model(mask, x, input_pos)
+    next_token = sample(logits, **sampling_kwargs)[0]
+    next_token = next_token.to(torch.long)
+    assert next_token.dtype == torch.long, f"Expected next_token to be of type torch.long, but got {next_token.dtype}"
     return sample(logits, **sampling_kwargs)[0]
 
 
@@ -100,7 +112,23 @@ def decode_one_token(
     mask.mask_mod = block_mask.mask_mod
     mask.seq_lengths = (1, model.max_seq_length)
     logits = model(mask, x, input_pos)
-    return sample(logits, **sampling_kwargs)
+    if torch.isinf(logits).any() or torch.isnan(logits).any():
+        # 1. 打印警告，这对于调试至关重要
+        unk_token_id = sampling_kwargs.get("unk_token_id", 0)
+        print(
+            f"WARNING: inf/nan detected in logits at generation step {input_pos.item()}. "
+            f"Forcing output to be <unk> token (ID: {unk_token_id})."
+        )
+        batch_size = logits.size(0)
+        next_token = torch.full((batch_size, 1), fill_value=unk_token_id, dtype=torch.long, device=logits.device)
+        next_prob = torch.ones((batch_size, 1), dtype=logits.dtype, device=logits.device)
+        return next_token, next_prob
+    next_token, next_prob = sample(logits, **sampling_kwargs)
+    next_token = next_token.to(torch.long)
+    assert next_token.dtype == torch.long, f"Expected next_token to be of type torch.long, but got {next_token.dtype}"
+    if (next_token > 32000).any():
+        pass
+    return next_token, next_prob
 
 
 def decode_n_tokens(
@@ -122,7 +150,6 @@ def decode_n_tokens(
         callback(new_tokens[-1])
         new_probs.append(next_prob.clone())
         cur_token = next_token.clone()
-
     return new_tokens, new_probs
 
 
@@ -257,7 +284,11 @@ def generate(
 
 
 def encode_tokens(tokenizer, string, bos=True, device=default_device):
-    tokens = tokenizer.encode(string)
+    if isinstance(tokenizer, PreTrainedTokenizer):
+        tokens = tokenizer.encode(string, add_special_tokens=False, return_tensors="pt").squeeze(0)
+        return tokens.to(device=device, dtype=torch.long)
+    else:
+        tokens = tokenizer.encode(string)
     if bos:
         tokens = [tokenizer.bos_id()] + tokens
     return torch.tensor(tokens, dtype=torch.int, device=device)
@@ -513,7 +544,7 @@ if __name__ == "__main__":
         default=Path("checkpoints/meta-Transformer/Transformer-2-7b-chat-hf/model.pth"),
         help="Model checkpoint path.",
     )
-    parser.add_argument("--compile", action="store_true", help="Whether to compile the model.")
+    # parser.add_argument("--compile", action="store_true", help="Whether to compile the model.")
     parser.add_argument(
         "--compile_prefill",
         action="store_true",

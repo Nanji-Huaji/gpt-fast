@@ -236,9 +236,9 @@ class Transformer(nn.Module):
 
     def setup_caches(self, max_batch_size, max_seq_length):
         if self.max_seq_length >= max_seq_length and self.max_batch_size >= max_batch_size:
-            print(
-                f"[setup_caches] 已存在足够大的KVCache: max_seq_length={self.max_seq_length}, max_batch_size={self.max_batch_size}"
-            )
+            # print(
+            #     f"[setup_caches] 已存在足够大的KVCache: max_seq_length={self.max_seq_length}, max_batch_size={self.max_batch_size}"
+            # )
             return
 
         # 获取模型当前设备
@@ -255,16 +255,13 @@ class Transformer(nn.Module):
         elif hasattr(self.output, "scales_and_zeros"):
             dtype = self.output.scales_and_zeros.dtype
 
-        print(
-            f"[setup_caches] 开始为每层创建KVCache，batch_size={max_batch_size}, seq_length={max_seq_length_aligned}, n_local_heads={self.config.n_local_heads}, head_dim={head_dim}, dtype={dtype}"
-        )
+        # print(
+        #     f"[setup_caches] 开始为每层创建KVCache，batch_size={max_batch_size}, seq_length={max_seq_length_aligned}, n_local_heads={self.config.n_local_heads}, head_dim={head_dim}, dtype={dtype}"
+        # )
         for i, b in enumerate(self.layers):
             b.attention.kv_cache = KVCache(
                 max_batch_size, max_seq_length_aligned, self.config.n_local_heads, head_dim, dtype
             ).to(device)
-            print(
-                f"  - Layer {i}: KVCache shape = ({max_batch_size}, {self.config.n_local_heads}, {max_seq_length_aligned}, {head_dim}), dtype={dtype}"
-            )
 
         self.freqs_cis = precompute_freqs_cis(
             self.config.block_size,
@@ -275,9 +272,14 @@ class Transformer(nn.Module):
         ).to(
             device
         )  # 确保 freqs_cis 在正确设备上
-        print(
-            f"[setup_caches] freqs_cis shape: {self.freqs_cis.shape}, dtype: {self.freqs_cis.dtype}, device: {device}"
-        )
+        # print(
+        #     f"[setup_caches] freqs_cis shape: {self.freqs_cis.shape}, dtype: {self.freqs_cis.dtype}, device: {device}"
+        # )
+
+    def reset_caches(self):
+        for layer in self.layers:
+            if hasattr(layer.attention, "kv_cache") and layer.attention.kv_cache is not None:
+                layer.attention.kv_cache.reset()
 
     @property
     def dtype(self) -> torch.dtype:
@@ -299,7 +301,26 @@ class Transformer(nn.Module):
             input_pos = input_pos.to(self.device)
 
         mask.mask_mod = self.get_mask_mod(mask.mask_mod, input_pos[0])
+        idx = torch.clamp(idx, 0, self.config.vocab_size - 1)
+        # # --- 新增的调试代码 ---
+        # print(f"--- Debug Info ---")
+        # print(f"Input token shape (idx.shape): {idx.shape}")
+        # print(f"RoPE cache shape (self.freqs_cis.shape): {self.freqs_cis.shape}")
+        # print(f"Current position tensor (input_pos): {input_pos}")
+        # if input_pos is not None:
+        #     print(f"Max position value requested (input_pos.max()): {input_pos.max()}")
+        #     print(f"Min position value requested (input_pos.min()): {input_pos.min()}")
+        # # --- 调试代码结束 ---
         freqs_cis = self.freqs_cis[input_pos]
+        # --- 新的调试代码 ---
+        # print(f"--- Token Embedding Debug ---")
+        # 打印词汇表的大小
+        # print(f"Embedding table shape (vocab_size, embed_dim): {self.tok_embeddings.weight.shape}")
+        # 打印你试图查找的最大和最小 token ID
+        # print(f"Max token ID requested (idx.max()): {idx.max()}")
+        # print(f"Min token ID requested (idx.min()): {idx.min()}")
+        # --- 调试代码结束 ---
+
         x = self.tok_embeddings(idx)
 
         for i, layer in enumerate(self.layers):

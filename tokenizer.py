@@ -35,9 +35,10 @@ class SentencePieceWrapper(TokenizerInterface):
     def decode(self, tokens, **kwargs):
         if isinstance(tokens, torch.Tensor):
             print("Converting tokens from torch.Tensor to list.")
+            tokens = tokens.clamp(0, self.processor.vocab_size() - 1)
             tokens = tokens.to(torch.long).flatten().cpu().tolist()
         elif isinstance(tokens, list):
-            tokens = [int(token_id) for token_id in tokens]
+            tokens = list(map(int, filter(lambda x: x >= 0 and x <= self.processor.vocab_size() - 1, tokens)))
         else:
             raise TypeError("Tokens must be a list or torch.Tensor.")
         return self.processor.DecodeIds(tokens)
@@ -48,53 +49,97 @@ class SentencePieceWrapper(TokenizerInterface):
     def eos_id(self):
         return self.processor.eos_id()
 
+    def pad_id(self):
+        print(f"Pad ID: {self.processor.pad_id()}")
+        pad_id = self.processor.pad_id()
+        unk_id = self.processor.unk_id()
+        return self.processor.unk_id()
+
+    # @property
+    # def special_tokens_map(self):
+    #     """
+    #     Returns a dictionary mapping special token types to their string representations.
+    #     This matches HuggingFace tokenizer's special_tokens_map format.
+    #     """
+    #     special_tokens = {}
+
+    #     # Add BOS token if it exists
+    #     if self.processor.bos_id() != -1:
+    #         special_tokens["bos_token"] = "<s>"
+
+    #     # Add EOS token if it exists
+    #     if self.processor.eos_id() != -1:
+    #         special_tokens["eos_token"] = "</s>"
+
+    #     # Add UNK token if it exists
+    #     if self.processor.unk_id() != -1:
+    #         special_tokens["unk_token"] = "<unk>"
+
+    #     # Add PAD token if it exists
+    #     if self.processor.pad_id() != -1:
+    #         special_tokens["pad_token"] = "<pad>"
+
+    #     return special_tokens
+
+    # @property
+    # def special_tokens_ids(self):
+    #     """
+    #     Returns a dictionary mapping special token strings to their IDs.
+    #     """
+    #     special_tokens = {}
+
+    #     # Add BOS and EOS tokens if they exist
+    #     if self.processor.bos_id() != -1:
+    #         special_tokens["<s>"] = self.processor.bos_id()
+    #     if self.processor.eos_id() != -1:
+    #         special_tokens["</s>"] = self.processor.eos_id()
+
+    #     # Add UNK token if it exists
+    #     if self.processor.unk_id() != -1:
+    #         special_tokens["<unk>"] = self.processor.unk_id()
+
+    #     # Add PAD token if it exists
+    #     if self.processor.pad_id() != -1:
+    #         special_tokens["<pad>"] = self.processor.pad_id()
+
+    #     return special_tokens
+
     @property
     def special_tokens_map(self):
         """
         Returns a dictionary mapping special token types to their string representations.
-        This matches HuggingFace tokenizer's special_tokens_map format.
+        MODIFIED: This version is tailored for models without a dedicated pad token,
+        aliasing the 'unk_token' as the 'pad_token' to meet specific requirements.
         """
         special_tokens = {}
-
-        # Add BOS token if it exists
         if self.processor.bos_id() != -1:
-            special_tokens["bos_token"] = "<s>"
-
-        # Add EOS token if it exists
+            special_tokens["bos_token"] = self.processor.id_to_piece(self.processor.bos_id())
         if self.processor.eos_id() != -1:
-            special_tokens["eos_token"] = "</s>"
-
-        # Add UNK token if it exists
+            special_tokens["eos_token"] = self.processor.id_to_piece(self.processor.eos_id())
         if self.processor.unk_id() != -1:
-            special_tokens["unk_token"] = "<unk>"
-
-        # Add PAD token if it exists
-        if self.processor.pad_id() != -1:
-            special_tokens["pad_token"] = "<pad>"
-
+            special_tokens["unk_token"] = self.processor.id_to_piece(self.processor.unk_id())
+        if "unk_token" in special_tokens:
+            special_tokens["pad_token"] = special_tokens["unk_token"]  # This sets 'pad_token': '<unk>'
+        print("Special tokens map:", special_tokens)
         return special_tokens
 
     @property
     def special_tokens_ids(self):
         """
         Returns a dictionary mapping special token strings to their IDs.
+        MODIFIED: This version is simplified to reflect that the <unk> token
+        is also used for padding.
         """
         special_tokens = {}
-
         # Add BOS and EOS tokens if they exist
         if self.processor.bos_id() != -1:
-            special_tokens["<s>"] = self.processor.bos_id()
+            special_tokens[self.processor.id_to_piece(self.processor.bos_id())] = self.processor.bos_id()
         if self.processor.eos_id() != -1:
-            special_tokens["</s>"] = self.processor.eos_id()
-
-        # Add UNK token if it exists
+            special_tokens[self.processor.id_to_piece(self.processor.eos_id())] = self.processor.eos_id()
+        # Add UNK token if it exists. This single entry now covers both UNK and PAD roles.
         if self.processor.unk_id() != -1:
-            special_tokens["<unk>"] = self.processor.unk_id()
-
-        # Add PAD token if it exists
-        if self.processor.pad_id() != -1:
-            special_tokens["<pad>"] = self.processor.pad_id()
-
+            special_tokens[self.processor.id_to_piece(self.processor.unk_id())] = self.processor.unk_id()
+        print("Special tokens IDs:", special_tokens)
         return special_tokens
 
 
